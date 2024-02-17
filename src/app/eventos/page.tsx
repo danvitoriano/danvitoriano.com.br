@@ -1,3 +1,12 @@
+import Link from "next/link";
+
 export default function Eventos(){
-    return <div><h1>Eventos</h1></div>
+    return (
+        <main>
+        <h1 className=" text-xl">Eventos</h1>
+        <nav>
+            <Link href="/" className=" text-sm">Home</Link>
+        </nav>
+        </main>
+    )
 }
