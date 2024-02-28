@@ -1,3 +1,5 @@
+Início do projeto nesta quarta, 28 de fevereiro, 19h
+
 # Projeto Learn in Public site danvitoriano.com.br
 
 Atualmente, o meu site pessoal, "danvitoriano.com.br" é feito usando a plataforma de low-code Squarespace: eu pago pouco mais de R$100 por mês e tenho um site completamente acessível e personalizável sem escrever quase nenhum código. Sempre defendi o low-code e continuo defendendo com uma solução rápida e viável para a maioria dos casos, mas como em 2024 meus planos são ter ainda mais projetos (sites), manter o Squarespace torna-se iniviável. Quando você precisa ter dois, três ou mais contas na plataforma acaba saindo caro demais. Eu já tenho meu site, o do Devs 40+ e agora terá o da LGBTech Conf.
