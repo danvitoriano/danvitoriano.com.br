@@ -1,12 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
+      <div className="max-w-96">
+        <a
+          href="https://bileto.sympla.com.br/event/88083/d/222695?utm_source=mkt&utm_campaign=brazildesconto40&utm_term=danvitoriano"
+          target="_blank"
+        >
+          <Image src="/images/braziljs.webp" alt="Logo" fill />
+        </a>
+      </div>
       <div className="p-4">
         <h1 className=" text-xl">danvitoriano.com.br</h1>
       </div>
-      <ul className="list-disc pl-4">
+      <ul className="list-disc pl-4 hidden">
         <li>
           <Link href="/iniciativas">Iniciativas</Link>
         </li>
