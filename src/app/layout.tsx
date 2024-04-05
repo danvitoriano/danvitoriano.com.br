@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Dan Vitoriano",
   // description: "Criador de conteúdo. professsor tech e desenvolvedor web.",
-  description: "Lojinha Tech de produtos usados do Migles.",
+  description: "Lojinha Tech de produtos do Migles.",
 };
 
 export default function RootLayout({
@@ -49,10 +49,11 @@ export default function RootLayout({
             <h1 className="text-2xl">Loja Tech do Migles</h1>
           </Link>
           <p>
-            Tudo no Pix, via checkout da{" "}
-            <a href="https://www.woovi.com" className="underline">
+            Tudo no Pix.
+            {/* , via checkout da{" "} */}
+            {/* <a href="https://www.woovi.com" className="underline">
               Woovi
-            </a>
+            </a> */}
           </p>
           {children}
         </main>
