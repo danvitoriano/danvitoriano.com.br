@@ -23,11 +23,11 @@ export default function Loja() {
             Nikon D3200 (usado)
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/loja/tecladomxkeyss" className="underline">
             Teclado Logitech MX Keys S (novo)
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
