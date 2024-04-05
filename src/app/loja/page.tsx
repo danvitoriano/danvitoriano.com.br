@@ -4,13 +4,29 @@ export default function Loja() {
     <div className="p-4">
       <ul className="list-disc pl-4">
         <li>
-          <Link href="/loja/kindle" className="underline">Kindle 10ª Geração (usado)</Link>
+          <Link href="/loja/kindle" className="underline">
+            Kindle 10ª Geração (usado)
+          </Link>
         </li>
         <li>
-          <Link href="/loja/2">Produto 2</Link>
+          <Link href="/loja/airpodspro" className="underline">
+            AirPods Pro original Apple (usado)
+          </Link>
         </li>
         <li>
-          <Link href="/loja/3">Produto 3</Link>
+          <Link href="/loja/appletv" className="underline">
+            Apple TV (usada)
+          </Link>
+        </li>
+        <li>
+          <Link href="/loja/nikond3200" className="underline">
+            Nikon D3200 (usado)
+          </Link>
+        </li>
+        <li>
+          <Link href="/loja/tecladomxkeyss" className="underline">
+            Teclado Logitech MX Keys S (novo)
+          </Link>
         </li>
       </ul>
     </div>
