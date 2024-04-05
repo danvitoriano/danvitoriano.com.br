@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dan Vitoriano",
-  description: "Criador de conteúdo. professsor tech e desenvolvedor web.",
+  // description: "Criador de conteúdo. professsor tech e desenvolvedor web.",
+  description: "Lojinha Tech de produtos usados do Migles.",
 };
 
 export default function RootLayout({
