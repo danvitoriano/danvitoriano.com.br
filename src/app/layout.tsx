@@ -25,7 +25,7 @@ export default function RootLayout({
         }
       >
         <main style={{ display: "block" }}>
-          <Link href="\">
+          <Link href="\" className="hidden">
             <Image
               src="/images/logo-dan-vitoriano.jpeg"
               alt="logo"
@@ -34,7 +34,25 @@ export default function RootLayout({
               style={{ margin: "0 auto" }}
             />
           </Link>
-          <Nav />
+          <div className="hidden">
+            <Nav />
+          </div>
+          <Image
+            src="/images/logo-dan-vitoriano.jpeg"
+            alt="logo"
+            width={50}
+            height={50}
+            className="float-right"
+          />
+          <Link href="/loja" className="pb-8 underline">
+            <h1 className="text-2xl">Loja Tech do Migles</h1>
+          </Link>
+          <p>
+            Tudo no Pix, via checkout da{" "}
+            <a href="https://www.woovi.com" className="underline">
+              Woovi
+            </a>
+          </p>
           {children}
         </main>
       </body>
