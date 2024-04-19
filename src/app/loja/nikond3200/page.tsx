@@ -6,6 +6,11 @@ export default function Loja() {
     <div className="p-4">
       {/* título */}
       <h1 className=" text-xl pt-8">Nikon D3200 + Lente 18-55mm (usada)</h1>
+      <p
+        className=" text-red-500 py-2 text-2xl"
+      >
+        VENDIDA
+      </p>
       {/* descrição */}
       <p className="pb-4">
         Kit na caixa, câmera Nikon D3200 digital com lente 18-55mm, carregador,
@@ -82,14 +87,11 @@ export default function Loja() {
         calcular o frete e o pagamento deve ser feito a parte antes de eu enviar
         pelos Correios. Prazo de entrega é de 1 a 2 dias úteis no máximo.
       </p>
-      <a
-        href="https://openpix.com.br/pay/63a53cc2-e03e-4b7e-8a4d-1aa51d01a35b"
-        target="_blank"
-        rel="noreferrer noopener"
-        className="mt-8 rounded-lg bg-lime-900 text-white border border-transparent px-5 py-4 transition-colors hover:border-lime-400 hover:bg-lime-500 hover:dark:border-lime-700 hover:dark:bg-lime-950"
+      <p
+        className=" text-red-500 py-2 text-2xl"
       >
-        Comprar
-      </a>
+        VENDIDA
+      </p>
     </div>
   );
 }

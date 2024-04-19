@@ -13,14 +13,18 @@ export default function Loja() {
             AirPods Pro original Apple (usado)
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/loja/appletv" className="underline">
             Apple TV (usada)
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/loja/nikond3200" className="underline">
-            Nikon D3200 (usado)
+            Nikon D3200 (usado) <span
+        className=" text-red-500"
+      >
+        VENDIDA
+      </span>
           </Link>
         </li>
         {/* <li>
