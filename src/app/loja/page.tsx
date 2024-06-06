@@ -4,11 +4,6 @@ export default function Loja() {
     <div className="p-4">
       <ul className="list-disc pl-4">
         <li>
-          <Link href="/loja/kindle" className="underline">
-            Kindle 10ª Geração (usado)
-          </Link>
-        </li>
-        <li>
           <Link href="/loja/airpodspro" className="underline">
             AirPods Pro original Apple (usado)
           </Link>
