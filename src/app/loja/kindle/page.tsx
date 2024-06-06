@@ -50,7 +50,7 @@ export default function Loja() {
         <strong>Entrega:</strong> Entrega grátis em São Paulo capital. Depois da compra eu pego seu endereço por email ou celular. Para outras regiões, calcular o frete e o pagamento deve ser feito a parte antes de eu enviar pelos Correios. Prazo de entrega é de 1 a 2 dias úteis no máximo.
       </p>
       <a
-        href="https://openpix.com.br/pay/9cdb9791-4a0e-4c9d-b5e4-cf5e409ac7b7"
+        disabled
         target="_blank"
         rel="noreferrer noopener"
         className="mt-8 rounded-lg bg-lime-900 text-white border border-transparent px-5 py-4 transition-colors hover:border-lime-400 hover:bg-lime-500 hover:dark:border-lime-700 hover:dark:bg-lime-950"
