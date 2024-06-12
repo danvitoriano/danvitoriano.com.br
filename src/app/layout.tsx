@@ -1,15 +1,12 @@
-import Nav from "./components/nav";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Link from "next/link";
-import Image from "next/image";
+import SimpleFooter from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dan Vitoriano",
-  // description: "Criador de conteúdo. professsor tech e desenvolvedor web.",
-  description: "Lojinha Tech de produtos do Migles.",
+  description: "Criador de conteúdo. professsor tech e desenvolvedor web.",
 };
 
 export default function RootLayout({
@@ -26,36 +23,8 @@ export default function RootLayout({
         }
       >
         <main style={{ display: "block" }}>
-          <Link href="\" className="hidden">
-            <Image
-              src="/images/logo-dan-vitoriano.jpeg"
-              alt="logo"
-              width={50}
-              height={50}
-              style={{ margin: "0 auto" }}
-            />
-          </Link>
-          <div className="hidden">
-            <Nav />
-          </div>
-          <Image
-            src="/images/logo-dan-vitoriano.jpeg"
-            alt="logo"
-            width={50}
-            height={50}
-            className="float-right"
-          />
-          <Link href="/loja" className="pb-8 underline">
-            <h1 className="text-2xl">Loja Tech do Migles</h1>
-          </Link>
-          <p>
-            Tudo no Pix.
-            {/* , via checkout da{" "} */}
-            {/* <a href="https://www.woovi.com" className="underline">
-              Woovi
-            </a> */}
-          </p>
           {children}
+          <SimpleFooter/>
         </main>
       </body>
     </html>

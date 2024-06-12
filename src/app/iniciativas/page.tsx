@@ -8,8 +8,14 @@ export default function Iniciativas() {
         Iniciativas
       </h1>
       <ul className="list-disc pl-4">
+      <li>
+          <Link href="/techtelevision">Tech Television</Link>
+        </li>
         <li>
-          <Link href="/iniciativas/devs40">Devs40</Link>
+          <a href="https://orgulhotech.com.br" target="_blank">Orgulho Tech</a>
+        </li>
+        <li>
+          <Link href="/devs40mais">Tech 40+</Link>
         </li>
         <li>
           <Link href="/iniciativas/alura">Alura</Link>

@@ -23,12 +23,16 @@ export default function Nav() {
 
   // menu items
   const menuItems = [
-    { name: "Eventos", href: "/eventos" },
-    { name: "Loja", href: "/nilly" },
-    { name: "Devs 40+", href: "/devs40mais" },
-    { name: "Blog", href: "/blog" },
-    { name: "Sobre", href: "/about" },
     { name: "Iniciativas", href: "/iniciativas" },
+    { name: "Newsletter", href: "/newsletter" },
+    { name: "Loja", href: "/nilly" },
+    { name: "Contato", href: "/contact" },
+    { name: "Sobre", href: "/about" },
+    { name: "Blog", href: "/blog" },
+    { name: "Eventos", href: "/eventos" },
+    { name: "Tech Tv", href: "/techtv" },
+    { name: "Tech Television", href: "/techtelevision" },
+    { name: "Devs40mais", href: "/devs40mais" },
   ];
 
   return (
