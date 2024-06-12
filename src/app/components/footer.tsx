@@ -24,9 +24,9 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link className="hover:underline" href="/techtelevision">
-                    Tech Television
-                  </Link>
+                <a href="https://techtelevision.com.br" target="_blank">
+                    Tech Television Brasil
+                  </a>
                 </li>
                 <li className="mb-4">
                   <a href="https://orgulhotech.com.br" target="_blank">
@@ -34,9 +34,9 @@ export default function Footer() {
                   </a>
                 </li>
                 <li className="mb-4">
-                  <Link className="hover:underline" href="/devs40mais">
+                <a href="https://devs40mais.com.br" target="_blank">
                     Tech 40+
-                  </Link>
+                  </a>
                 </li>
                 <li className="mb-4">
                   <Link className="hover:underline" href="/iniciativas/cursos">
@@ -74,7 +74,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/4eeurUVvTy"
+                    href="https://discord.gg/h5nNWFhFwz"
                     className="hover:underline"
                   >
                     Discord
@@ -87,25 +87,21 @@ export default function Footer() {
                 Sobre
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                
                 <li className="mb-4">
-                  <a className="hover:underline">
-                    Política de privacidade
-                  </a>
+                <Link href="/about" className="hover:underline">
+                    Dan Vitoriano
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a className="hover:underline">
-                    Termos e condições
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a className="hover:underline">
+                  <a className="hover:underline" href="https://danvitoriano.substack.com">
                     Newsletter
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a className="hover:underline">
+                  <Link href="/contact" className="hover:underline">
                     Contato
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

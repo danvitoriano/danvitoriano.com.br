@@ -1,10 +1,9 @@
-import Link from "next/link";
+import ContactPage from "../components/contact";
 
 export default function Contact() {
   return (
-    <div className="p-4">
-      <Link href="/">Home</Link>
-      <h1 className=" text-xl">Contact</h1>
-    </div>
+    <>
+      <ContactPage />
+    </>
   );
 }
