@@ -25,7 +25,7 @@ export default function Footer() {
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                 <a href="https://techtelevision.com.br" target="_blank">
-                    Tech Television Brasil
+                    Tech Television
                   </a>
                 </li>
                 <li className="mb-4">
@@ -87,10 +87,14 @@ export default function Footer() {
                 Sobre
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                
+                <li className="mb-4">
+                <Link href="/imprensa" className="hover:underline">
+                    Imprensa
+                  </Link>
+                </li>
                 <li className="mb-4">
                 <Link href="/about" className="hover:underline">
-                    Dan Vitoriano
+                    Quem sou
                   </Link>
                 </li>
                 <li className="mb-4">
