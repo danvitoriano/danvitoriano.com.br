@@ -65,19 +65,19 @@ export default function List() {
           <dl className="divide-y divide-gray-100">
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
               <dt className="text-sm font-medium leading-6 text-gray-900">
-                Tech 40+ Show
+              User Conference Brasil 2024
               </dt>
               <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                Setemmbro de 2024
+                7 e 8 de agosto de 2024
                 <br />
-                2ª da conferência de profissionais maduras na tecnologia.
+                Evento da ManageEngine para usuários de seus produtos, com foco em gerenciamento de TI e infraestrutura.
                 <br />
                 <a
-                  href="https://www.devs40mais.com.br/"
+                  href="https://events.manageengine.com/brasil-userconf-2024"
                   target="_blank"
                   className="text-indigo-600 hover:text-indigo-500 font-bold"
                 >
-                  Devs 40+ Conference
+                  Inscreva-se grátis
                 </a>
               </dd>
             </div>
@@ -100,6 +100,26 @@ export default function List() {
                 <br />
                 Serão 70.000m² de evento, com 34 conferências, mais de 2.500 palestrantes convidados, 2.200 startups e incubadoras fomentando negócios, mais de 350 expositores apresentando inovações e soluções para os setores, além de bootcamps setorizados, mentorias, exposições, workshops, networking e muitos negócios.
                 <br />
+              </dd>
+            </div>
+          </dl>
+          <dl className="divide-y divide-gray-100">
+            <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+              <dt className="text-sm font-medium leading-6 text-gray-900">
+                Tech 40+ Show
+              </dt>
+              <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                Setemmbro de 2024
+                <br />
+                2ª da conferência de profissionais maduras na tecnologia.
+                <br />
+                <a
+                  href="https://www.devs40mais.com.br/"
+                  target="_blank"
+                  className="text-indigo-600 hover:text-indigo-500 font-bold"
+                >
+                  Devs 40+ Conference
+                </a>
               </dd>
             </div>
           </dl>
