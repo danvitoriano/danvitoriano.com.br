@@ -109,7 +109,7 @@ export default function List() {
                 Tech 40+ Show
               </dt>
               <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                Setemmbro de 2024
+                Setembro de 2024
                 <br />
                 2ª da conferência de profissionais maduras na tecnologia.
                 <br />
