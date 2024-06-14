@@ -85,6 +85,7 @@ export default function List() {
                 25 de junho de 2024
                 <br />
                 Os futuros desejáveis acontecem primeiro nos sonhos, no mês do orgulho, vamos sonhar juntos? Um evento completo para você viver uma experiência imersiva e aprender com os melhores do mercado.
+                <br />
                 <a
                   href="https://materiais.nohssomos.com.br/landing-page-maratona-do-orgulho-futurosdesejaveis"
                   target="_blank"
