@@ -77,6 +77,25 @@ export default function List() {
             </div>
           </dl>
           <dl className="divide-y divide-gray-100">
+            <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+              <dt className="text-sm font-medium leading-6 text-gray-900">
+                Maratona do Orgulho
+              </dt>
+              <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                25 de junho de 2024
+                <br />
+                Os futuros desejáveis acontecem primeiro nos sonhos, no mês do orgulho, vamos sonhar juntos? Um evento completo para você viver uma experiência imersiva e aprender com os melhores do mercado.
+                <a
+                  href="https://materiais.nohssomos.com.br/landing-page-maratona-do-orgulho-futurosdesejaveis"
+                  target="_blank"
+                  className="text-indigo-600 hover:text-indigo-500 font-bold"
+                >
+                  Inscreva-se
+                </a>
+              </dd>
+            </div>
+          </dl>
+          <dl className="divide-y divide-gray-100">
           <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
               <dt className="text-sm font-medium leading-6 text-gray-900">
               Mentoria para Todes
@@ -96,7 +115,6 @@ export default function List() {
               </dd>
             </div>
           </dl>
-
           <dl className="divide-y divide-gray-100">
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
               <dt className="text-sm font-medium leading-6 text-gray-900">
