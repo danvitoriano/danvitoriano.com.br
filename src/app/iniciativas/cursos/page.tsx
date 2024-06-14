@@ -19,9 +19,9 @@ const courses = [
   },
   {
     id: 3,
-    name: 'Aprendizagem com IA na Alura',
+    name: 'Aprendizagem com IA na Alura (+1400 cursos)',
     href: 'https://www.alura.com.br/formacao-iahttps://www.alura.com.br/curso-online-aprendizagem-ia-personalizando-rotina-chatgpt?c=danvitoriano',
-    price: 'Mais de 1400 cursos por 12x R$92,65 (15% off)',
+    price: '12x R$92,65 (15% off)',
     imageSrc: '/images/curso-alura.png',
     imageAlt: 'Aprendizagem com IA na Alura.'
   },
