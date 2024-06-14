@@ -21,7 +21,7 @@ const courses = [
     id: 3,
     name: 'Aprendizagem com IA na Alura',
     href: 'https://www.alura.com.br/formacao-iahttps://www.alura.com.br/curso-online-aprendizagem-ia-personalizando-rotina-chatgpt?c=danvitoriano',
-    price: 'R$0',
+    price: 'Mais de 1400 cursos por 12x R$92,65 (15% off)',
     imageSrc: '/images/curso-alura.png',
     imageAlt: 'Aprendizagem com IA na Alura.'
   },
@@ -30,7 +30,7 @@ const courses = [
     name: 'Curso CS50 de Harvard',
     href: 'https://www.edx.org/course/cs50s-introduction-to-computer-science',
     price: 'R$0',
-    imageSrc: '/images/curso-CS50-harvard.png',
+    imageSrc: '/images/curso-cs50-harvard.png',
     imageAlt: 'Curso CS50 de Harvard.'
   },
 ];
