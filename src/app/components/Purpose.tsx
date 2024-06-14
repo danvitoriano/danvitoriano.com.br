@@ -4,6 +4,7 @@ import {
   FingerPrintIcon,
   LockClosedIcon,
   ChevronDownIcon,
+  StopCircleIcon,
 } from "@heroicons/react/24/outline";
 
 const features = [
@@ -41,6 +42,12 @@ const features = [
     icon: ChevronDownIcon,
     href: "https://vtex.com/pt-br/blog/culture-pt-br/importancia-de-referencias-lgbtqia-no-ambiente-de-trabalho/",
     },
+    {
+        name: "Scielo Brasil: Sexualidad, Salud y Sociedad",
+        description: "Eu tento não me esconder, nunca”: estratégias utilizadas pelos profissionais gays e lésbicas para minimizar os estigmas sexuais nos espaços de trabalho.",
+        icon: StopCircleIcon,
+        href: "https://www.scielo.br/j/sess/a/8nqvDDPLkSV3H8WhsWKTBWg/",
+    }
 ];
 
 export default function Purpose({topic, titulo, content} : any) {
