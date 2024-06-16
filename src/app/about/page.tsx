@@ -1,3 +1,4 @@
+import Ods from "../components/ods";
 import Purpose from "./../components/Purpose";
 import Featured from "./../components/featured";
 
@@ -13,6 +14,7 @@ export default function Sobre() {
     <>
       <Featured titulo="Quem é Dan Vitoriano" />
       <Purpose id={purposeData.id} topic={purposeData.topic} titulo={purposeData.titulo} content={purposeData.content}  />
+      <Ods />
     </>
   );
 }
