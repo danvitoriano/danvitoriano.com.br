@@ -1,3 +1,4 @@
+import Image from 'next/image'
 
 export default function Ods() {
   return (
@@ -11,6 +12,7 @@ export default function Ods() {
           <p className="mt-6 text-lg leading-8 text-gray-600">
             A Agenda 2030 é um plano de ação para as pessoas, para o planeta e para a prosperidade. Ela busca fortalecer a paz universal com mais liberdade. Ela reconhece que a erradicação da pobreza em todas as suas formas e dimensões, incluindo a pobreza extrema, é o maior desafio global e um requisito indispensável para o desenvolvimento sustentável. Estou comprometido com os 17 Objetivos de Desenvolvimento Sustentável (ODS) e com a Agenda 2030.
           </p>
+          <Image src="/images/ods.webp" alt="Objetivos de Desenvolvimento Sustentável" width={800} height={400} className="mt-12" />
         </div>
       </div>
     </div>
