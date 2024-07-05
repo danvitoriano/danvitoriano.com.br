@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
     { name: "Sobre", href: "/about" },
+    { name: "Dev", href: "/dev" },
     { name: "Iniciativas", href: "/iniciativas" },
     { name: "Eventos", href: "/eventos" },
     { name: "Blog", href: "https://danvitoriano.substack.com" },
