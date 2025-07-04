@@ -18,10 +18,10 @@ export default function Hero() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Orgulho Tech Conf 2024 no YouTube.{" "}
-              <a href="https://www.youtube.com/watch?v=MPRh_AoFmeA" target="_blank" className="font-semibold text-indigo-600">
+              Orgulho Tech 2025 - Envelhecer LGBT+ na tecnologia{" "}
+              <a href="https://orgulhotech.com.br/" target="_blank" className="font-semibold text-indigo-600">
                 <span className="absolute inset-0" aria-hidden="true" />
-                Assista aqui <span aria-hidden="true">&rarr;</span>
+                Veja como foi <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
@@ -30,8 +30,7 @@ export default function Hero() {
             Dan Vitoriano, developer e tech creator.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            Conteúdo sobre tecnologia, programação e negócios
-            digitais. Criatividade e inovação para employer branding, D&I e ESG.
+            Criador de comunidades tech inclusivas. Consultoria em conteúdo, eventos e podcasts para diversidade, impacto social e inovação no mercado de tecnologia.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

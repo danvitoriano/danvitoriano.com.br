@@ -6,14 +6,14 @@ const features = [
     {
         name: "Tech 40+",
         description:
-          "Comunidade, evento e podcast de tecnologia para a faixa etária acima dos 40 anos.",
+          "Comunidade, eventos e podcast dedicados a profissionais de tecnologia com 40+ anos.",
         icon: CloudArrowUpIcon,
         url: "https://devs40mais.com.br"
       },
       {
         name: "Orgulho Tech",
         description:
-          "1ª conferência e podcast para profissionais da comunidade LGBTQIA+ na tecnologia.",
+          "Comunidade que promove conferência, meetup e podcast para profissionais da comunidade LGBTQIA+ na tecnologia.",
         icon: LockClosedIcon,
         url: "https://orgulhotech.com.br"
       },
@@ -29,7 +29,7 @@ const features = [
         description:
           "Estude com desconto na maior ecossistema de educação em tecnologia do Brasil.",
         icon: ArrowPathIcon,
-        url: "https://alura.tv/danvitoriano"
+        url: "https://alura.com.br/danvitoriano"
       },
       {
         name: "Cursos",
@@ -75,7 +75,7 @@ export default function Example() {
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
-                  <Link href={feature.url}>
+                  <Link href={feature.url} className="underline">
                     {feature.name}
                   </Link>
                 </dt>
