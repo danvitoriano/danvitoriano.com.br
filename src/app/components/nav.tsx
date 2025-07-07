@@ -25,6 +25,7 @@ export default function Nav() {
   const menuItems = [
     { name: "Iniciativas", href: "/iniciativas" },
     { name: "Newsletter", href: "/newsletter" },
+    { name: "Sorteios", href: "/sorteios" },
     { name: "Loja", href: "/nilly" },
     { name: "Contato", href: "/contact" },
     { name: "Sobre", href: "/about" },
