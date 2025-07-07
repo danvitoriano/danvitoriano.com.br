@@ -54,7 +54,7 @@ export async function POST(request: NextRequest) {
       spreadsheetId: SPREADSHEET_ID,
       range: `${SHEET_NAME}!A:J`, // Colunas A até J
       valueInputOption: 'USER_ENTERED',
-      resource: {
+      requestBody: {
         values: values,
       },
     });
