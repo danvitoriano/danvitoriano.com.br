@@ -8,6 +8,7 @@ const navigation = [
     { name: "Dev", href: "/dev" },
     { name: "Iniciativas", href: "/iniciativas" },
     { name: "Eventos", href: "/eventos" },
+    { name: "Sorteios", href: "/sorteios" },
     { name: "Blog", href: "https://danvitoriano.substack.com" },
 ];
 

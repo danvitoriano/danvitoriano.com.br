@@ -88,6 +88,11 @@ export default function Sorteios() {
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Cadastre-se para participar dos sorteios exclusivos e receber novidades sobre tecnologia, diversidade e eventos.
           </p>
+          <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+            <p className="text-sm text-blue-800">
+              <strong>📋 Importante:</strong> Todos os campos são obrigatórios para participar dos sorteios.
+            </p>
+          </div>
         </div>
 
         {/* Sorteios Ativos */}
@@ -340,16 +345,61 @@ export default function Sorteios() {
                   Cargo
                 </label>
                 <div className="mt-2">
-                  <input
+                  <select
                     id="cargo"
                     name="cargo"
-                    type="text"
                     required
                     value={formData.cargo}
                     onChange={handleChange}
-                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
-                    placeholder="Seu cargo atual"
-                  />
+                    className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
+                  >
+                    <option value="">Selecione seu cargo</option>
+                    <option value="desenvolvedor-frontend">Desenvolvedor Frontend</option>
+                    <option value="desenvolvedor-backend">Desenvolvedor Backend</option>
+                    <option value="desenvolvedor-fullstack">Desenvolvedor Full Stack</option>
+                    <option value="desenvolvedor-mobile">Desenvolvedor Mobile</option>
+                    <option value="engenheiro-software">Engenheiro de Software</option>
+                    <option value="arquiteto-software">Arquiteto de Software</option>
+                    <option value="tech-lead">Tech Lead</option>
+                    <option value="engenheiro-devops">Engenheiro DevOps</option>
+                    <option value="sre">Site Reliability Engineer (SRE)</option>
+                    <option value="data-scientist">Data Scientist</option>
+                    <option value="data-engineer">Data Engineer</option>
+                    <option value="data-analyst">Data Analyst</option>
+                    <option value="ml-engineer">Machine Learning Engineer</option>
+                    <option value="analista-sistemas">Analista de Sistemas</option>
+                    <option value="product-manager">Product Manager</option>
+                    <option value="product-owner">Product Owner</option>
+                    <option value="scrum-master">Scrum Master</option>
+                    <option value="agile-coach">Agile Coach</option>
+                    <option value="ux-designer">UX Designer</option>
+                    <option value="ui-designer">UI Designer</option>
+                    <option value="ux-ui-designer">UX/UI Designer</option>
+                    <option value="designer-produto">Designer de Produto</option>
+                    <option value="qa-engineer">QA Engineer</option>
+                    <option value="qa-analyst">QA Analyst</option>
+                    <option value="teste-automatizado">Analista de Teste Automatizado</option>
+                    <option value="security-engineer">Security Engineer</option>
+                    <option value="cybersecurity-analyst">Cybersecurity Analyst</option>
+                    <option value="cloud-engineer">Cloud Engineer</option>
+                    <option value="solutions-architect">Solutions Architect</option>
+                    <option value="dba">Database Administrator (DBA)</option>
+                    <option value="it-support">Suporte de TI</option>
+                    <option value="infrastructure-engineer">Infrastructure Engineer</option>
+                    <option value="network-engineer">Network Engineer</option>
+                    <option value="cto">CTO</option>
+                    <option value="head-engineering">Head of Engineering</option>
+                    <option value="engineering-manager">Engineering Manager</option>
+                    <option value="tech-recruiter">Tech Recruiter</option>
+                    <option value="business-analyst">Business Analyst</option>
+                    <option value="marketing-tech">Marketing Tech</option>
+                    <option value="growth-hacker">Growth Hacker</option>
+                    <option value="freelancer">Freelancer</option>
+                    <option value="consultor">Consultor</option>
+                    <option value="empreendedor">Empreendedor</option>
+                    <option value="estudante">Estudante</option>
+                    <option value="outro">Outro</option>
+                  </select>
                 </div>
               </div>
 
