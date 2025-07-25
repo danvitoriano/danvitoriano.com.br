@@ -19,41 +19,104 @@ interface Event {
 export default function List() {
   const upcomingEvents: Event[] = [
     {
-      id: 1,
-      title: "IA Conference Brasil",
-      date: "13 de agosto de 2025",
-      description: "Conferência sobre Inteligência Artificial e suas aplicações no mercado brasileiro. Foco em inovação, ética e futuro da tecnologia.",
-      status: "Um evento Alura",
+      id: 15,
+      title: "Fórum E-Commerce Brasil 2025",
+      date: "29, 30 e 31 de julho de 2025",
+      location: "Distrito Anhembi - São Paulo/SP",
+      description: "Três dias de conteúdo de altíssima qualidade, networking estratégico e oportunidades de negócio reais. Varejo e Indústria se reúnem com grandes marcas de soluções para e-commerce para impulsionar o desenvolvimento do setor e construir o futuro do comércio eletrônico.",
+      status: "Lote 4 disponível",
       link: {
-        url: "https://www.iaconference.com.br/",
-        text: "iaconference.com.br"
+        url: "https://eventos.ecommercebrasil.com.br/forum",
+        text: "ecommercebrasil.com.br"
       }
     },
     {
-      id: 2,
-      title: "Codecon Summit 2025",
-      date: "18 e 19 de julho de 2025",
-      description: "Um dos maiores encontros dev do sul do mundo. Tema: \"The Hacker Way\". Viasoft Experience, Curitiba-PR.",
-      status: "Sorteio de ingressos",
+      id: 17,
+      title: "FIAP + ALURA | Lives IA em 4 Dimensões",
+      date: "04 a 07 de agosto de 2025",
+      location: "YouTube - 19h30",
+      description: "Descubra como a Inteligência Artificial está revolucionando o mercado em 4 áreas estratégicas: DEV, BUSINESS, DATA e CYBER. Lives gratuitas com especialistas do mercado, aplicações práticas e estratégias reais adotadas por empresas líderes.",
+      status: "Lives gratuitas com certificado por live",
       link: {
-        url: "https://www.codecon.dev/summit",
-        text: "codecon.dev/summit"
+        url: "https://link.danvitoriano.com.br/fiap",
+        text: "Inscreva-se gratuitamente"
+      }
+    },
+    {
+      id: 16,
+      title: "Imersão Dados com Python - Alura",
+      date: "05 a 08 de agosto de 2025",
+      location: "100% Online",
+      description: "Aprenda Python do zero, crie dashboards interativos e acelere sua carreira em dados. Em 4 dias, você sai do zero em Python e cria um dashboard real. Evento gratuito com suporte de especialistas e certificado de participação.",
+      status: "Evento gratuito com certificado",
+      link: {
+        url: "https://link.danvitoriano.com.br/python",
+        text: "Inscreva-se gratuitamente"
+      }
+    },
+    {
+      id: 1,
+      title: "IA Conference Brasil",
+      date: "13 de agosto de 2025",
+      location: "Centro de Convenções Rebouças, São Paulo",
+      description: "Conferência sobre Inteligência Artificial e suas aplicações no mercado brasileiro. Foco em inovação, ética e futuro da tecnologia.",
+      status: "Um evento Alura | Cupom DANVITORIANO10 - 10% de desconto",
+      link: {
+        url: "https://link.danvitoriano.com.br/iaconference",
+        text: "Inscreva-se com desconto"
+      }
+    },
+    {
+      id: 13,
+      title: "Rio Innovation Week + TDC Experience",
+      date: "De 12 a 15 de agosto de 2025",
+              location: "Pier Mauá, Rio de Janeiro",
+      description: "Um dos maiores eventos de inovação do país! Vou mediar um painel especial no encerramento (15/08 às 18h), em parceria com o TDC Experience, abordando viéses, diversidade e acessibilidade na Inteligência Artificial. Uma oportunidade única de discutir inclusão no mercado tech com convidados especialistas.",
+      status: "Stone sorteando ingressos gratuitos para grupos subrepresentados",
+      link: {
+        url: "https://link.danvitoriano.com.br/stone",
+        text: "Inscreva-se para concorrer"
+      }
+    },
+    {
+      id: 14,
+      title: "World Neurotechnologies Forum (WNF)",
+      date: "26 de agosto de 2025",
+      location: "Teatro Santander - São Paulo/SP",
+      description: "O maior evento de neurotecnologia da América Latina. Tema: \"Engenharia da Mente - Reconstruindo a Nossa Humanidade\". Evento presencial e online das 8h às 19h, reunindo especialistas em neurociência, IA, interfaces cérebro-máquina e tecnologias emergentes.",
+      status: "Cupom NEUROTECH20 com desconto | Sorteio de ingressos na seção Sorteios",
+      link: {
+        url: "https://wnf.global/",
+        text: "wnf.global"
       }
     },
     {
       id: 3,
       title: "Programaria Summit 10 Anos",
-      date: "2025",
-      description: "Celebração dos 10 anos da Programaria, organização que promove a diversidade de gênero na tecnologia.",
-      status: "Data a confirmar",
+      date: "18 de outubro de 2025",
+      location: "UNIP Indianópolis - São Paulo",
+      description: "Celebração dos 10 anos da Programaria, organização que promove a diversidade de gênero na tecnologia. Evento com palestras, painéis, workshops, feira de oportunidades e networking.",
+      status: "Sorteio de 10 ingressos para mulheres cis ou trans",
       link: {
-        url: "https://www.programaria.org",
-        text: "programaria.org"
+        url: "/sorteios",
+        text: "Participar do sorteio"
       }
     }
+    
   ];
 
   const pastEvents: Event[] = [
+    {
+      id: 2,
+      title: "Codecon Summit 2025",
+      date: "18 e 19 de julho de 2025",
+      description: "Um dos maiores encontros dev do sul do mundo. Tema: \"The Hacker Way\". Viasoft Experience, Curitiba-PR.",
+      status: null,
+      link: {
+        url: "https://www.codecon.dev/summit",
+        text: "codecon.dev/summit"
+      }
+    },
     {
       id: 4,
       title: "Meetup FIAP Orgulho Tech",
