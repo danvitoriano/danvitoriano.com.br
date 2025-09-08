@@ -88,11 +88,6 @@ export default function Sorteios() {
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Cadastre-se para participar dos sorteios exclusivos e receber novidades sobre tecnologia, diversidade e eventos.
           </p>
-          <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-            <p className="text-sm text-blue-800">
-              <strong>📋 Importante:</strong> Todos os campos são obrigatórios para participar dos sorteios.
-            </p>
-          </div>
         </div>
 
         {/* Sorteios Ativos */}
@@ -104,31 +99,37 @@ export default function Sorteios() {
             Clique no evento desejado para pré-selecionar no formulário
           </p>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Rio Innovation Week + TDC Experience */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+            {/* The Developers Conference São Paulo */}
             <div 
-              onClick={() => window.open('https://link.danvitoriano.com.br/stone', '_blank')}
-              className="relative rounded-lg border-2 p-6 cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 border-gray-200 bg-white hover:border-indigo-300"
+              onClick={() => selectEvent('tdc-sp')}
+              className={`relative rounded-lg border-2 p-6 cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 ${
+                formData.evento === 'tdc-sp' 
+                  ? 'border-indigo-600 bg-indigo-50' 
+                  : 'border-gray-200 bg-white hover:border-indigo-300'
+              }`}
             >
               <div className="text-center">
-                <div className="text-4xl mb-3">🚀</div>
+                <div className="text-4xl mb-3">🖥️</div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                  Rio Innovation Week + TDC Experience
+                  The Developers Conference São Paulo
                 </h4>
                 <p className="text-sm text-gray-600 mb-4">
-                  20 ingressos gratuitos da Stone para grupos subrepresentados
+                  O maior evento de desenvolvimento do Brasil
                 </p>
-                <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                  Clique para se inscrever
+                <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                  Clique para participar
                 </div>
               </div>
-              <div className="absolute top-2 right-2">
-                <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
+              {formData.evento === 'tdc-sp' && (
+                <div className="absolute top-2 right-2">
+                  <div className="w-6 h-6 bg-indigo-600 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
 
             {/* PrograMaria Summit 2025 */}
@@ -163,41 +164,16 @@ export default function Sorteios() {
               )}
             </div>
 
-            {/* World Neurotechnologies Forum */}
-            <div 
-              onClick={() => selectEvent('wnf')}
-              className={`relative rounded-lg border-2 p-6 cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 ${
-                formData.evento === 'wnf' 
-                  ? 'border-indigo-600 bg-indigo-50' 
-                  : 'border-gray-200 bg-white hover:border-indigo-300'
-              }`}
-            >
-              <div className="text-center">
-                <div className="text-4xl mb-3">🧠</div>
-                <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                  World Neurotechnologies Forum
-                </h4>
-                <p className="text-sm text-gray-600 mb-4">
-                  Futuro das neurotecnologias
-                </p>
-                <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
-                  Clique para participar
-                </div>
-              </div>
-              {formData.evento === 'wnf' && (
-                <div className="absolute top-2 right-2">
-                  <div className="w-6 h-6 bg-indigo-600 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                </div>
-              )}
-            </div>
           </div>
         </div>
 
+
         <div id="formulario-sorteios" className="mx-auto mt-16 max-w-xl sm:mt-20">
+          <div className="my-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+            <p className="text-sm text-blue-800">
+              <strong>📋 Importante:</strong> Todos os campos são obrigatórios para participar dos sorteios.
+            </p>
+          </div>
           {formData.evento && (
             <div className="mb-6 p-4 bg-indigo-50 border border-indigo-200 rounded-lg">
               <div className="flex items-center">
@@ -210,7 +186,7 @@ export default function Sorteios() {
                   <p className="text-sm text-indigo-800">
                     <strong>Evento selecionado:</strong> {
                       formData.evento === 'programaria' ? '👩🏽‍💻 PrograMaria Summit 2025' :
-                      formData.evento === 'wnf' ? '🧠 World Neurotechnologies Forum' : ''
+                      formData.evento === 'tdc-sp' ? '🖥️ The Developers Conference São Paulo' : ''
                     }
                   </p>
                 </div>
@@ -443,15 +419,15 @@ export default function Sorteios() {
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
                   >
                     <option value="">Selecione o evento</option>
+                    <option value="tdc-sp">🖥️ The Developers Conference São Paulo</option>
                     <option value="programaria">👩🏽‍💻 PrograMaria Summit 2025</option>
-                    <option value="wnf">🧠 World Neurotechnologies Forum (WNF)</option>
                   </select>
                 </div>
                 {formData.evento && (
                   <div className="mt-2 text-xs text-indigo-600">
                     ✓ Evento selecionado: {
                       formData.evento === 'programaria' ? '👩🏽‍💻 PrograMaria Summit 2025' :
-                      formData.evento === 'wnf' ? '🧠 World Neurotechnologies Forum' : ''
+                      formData.evento === 'tdc-sp' ? '🖥️ The Developers Conference São Paulo' : ''
                     }
                   </div>
                 )}
