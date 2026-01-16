@@ -83,87 +83,57 @@ export default function Sorteios() {
             Participe
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Sorteios
+            Sorteio TDC Summit São Paulo 2026
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Cadastre-se para participar dos sorteios exclusivos e receber novidades sobre tecnologia, diversidade e eventos.
+            Cadastre-se para participar do sorteio de ingressos para o TDC Summit São Paulo 2026 e receber novidades sobre tecnologia e eventos.
           </p>
         </div>
 
         {/* Sorteios Ativos */}
-        <div className="mx-auto mt-16 max-w-4xl">
+        <div className="mx-auto mt-16 max-w-2xl">
           <h3 className="text-xl font-semibold text-gray-900 text-center mb-2">
-            🎁 Sorteios Ativos
+            🎁 Sorteio Ativo
           </h3>
           <p className="text-center text-gray-600 text-sm mb-8">
-            Clique no evento desejado para pré-selecionar no formulário
+            Clique no evento para pré-selecionar no formulário
           </p>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+          <div className="flex justify-center">
             {/* The Developers Conference São Paulo */}
             <div 
               onClick={() => selectEvent('tdc-sp')}
-              className={`relative rounded-lg border-2 p-6 cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 ${
+              className={`relative rounded-lg border-2 p-8 cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 max-w-md w-full ${
                 formData.evento === 'tdc-sp' 
                   ? 'border-indigo-600 bg-indigo-50' 
                   : 'border-gray-200 bg-white hover:border-indigo-300'
               }`}
             >
               <div className="text-center">
-                <div className="text-4xl mb-3">🖥️</div>
-                <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                <div className="text-5xl mb-4">🖥️</div>
+                <h4 className="text-xl font-semibold text-gray-900 mb-2">
                   The Developers Conference São Paulo
                 </h4>
-                <p className="text-sm text-gray-600 mb-4">
+                <p className="text-base text-gray-600 mb-2">
                   O maior evento de desenvolvimento do Brasil
                 </p>
-                <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                <p className="text-sm text-indigo-600 font-semibold mb-4">
+                  Abril de 2026
+                </p>
+                <div className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
                   Clique para participar
                 </div>
               </div>
               {formData.evento === 'tdc-sp' && (
-                <div className="absolute top-2 right-2">
-                  <div className="w-6 h-6 bg-indigo-600 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <div className="absolute top-3 right-3">
+                  <div className="w-7 h-7 bg-indigo-600 rounded-full flex items-center justify-center">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                 </div>
               )}
             </div>
-
-            {/* PrograMaria Summit 2025 */}
-            <div 
-              onClick={() => selectEvent('programaria')}
-              className={`relative rounded-lg border-2 p-6 cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-105 ${
-                formData.evento === 'programaria' 
-                  ? 'border-indigo-600 bg-indigo-50' 
-                  : 'border-gray-200 bg-white hover:border-indigo-300'
-              }`}
-            >
-              <div className="text-center">
-                <div className="text-4xl mb-3">👩🏽‍💻</div>
-                <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                  PrograMaria Summit 2025
-                </h4>
-                <p className="text-sm text-gray-600 mb-4">
-                  Empoderamento feminino na tecnologia
-                </p>
-                <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-pink-100 text-pink-800">
-                  Clique para participar
-                </div>
-              </div>
-              {formData.evento === 'programaria' && (
-                <div className="absolute top-2 right-2">
-                  <div className="w-6 h-6 bg-indigo-600 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                </div>
-              )}
-            </div>
-
           </div>
         </div>
 
@@ -184,10 +154,7 @@ export default function Sorteios() {
                 </div>
                 <div className="ml-3">
                   <p className="text-sm text-indigo-800">
-                    <strong>Evento selecionado:</strong> {
-                      formData.evento === 'programaria' ? '👩🏽‍💻 PrograMaria Summit 2025' :
-                      formData.evento === 'tdc-sp' ? '🖥️ The Developers Conference São Paulo' : ''
-                    }
+                    <strong>Evento selecionado:</strong> 🖥️ The Developers Conference São Paulo - Abril de 2026
                   </p>
                 </div>
               </div>
@@ -202,7 +169,7 @@ export default function Sorteios() {
                   </h3>
                   <div className="mt-2 text-sm text-green-700">
                     <p>
-                      Obrigado por se cadastrar! Você receberá informações sobre os sorteios em seu email.
+                      Obrigado por se cadastrar! Você receberá informações sobre o sorteio em seu email.
                     </p>
                   </div>
                   <div className="mt-4">
@@ -419,16 +386,12 @@ export default function Sorteios() {
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-3"
                   >
                     <option value="">Selecione o evento</option>
-                    <option value="tdc-sp">🖥️ The Developers Conference São Paulo</option>
-                    <option value="programaria">👩🏽‍💻 PrograMaria Summit 2025</option>
+                    <option value="tdc-sp">🖥️ The Developers Conference São Paulo - Abril de 2026</option>
                   </select>
                 </div>
                 {formData.evento && (
                   <div className="mt-2 text-xs text-indigo-600">
-                    ✓ Evento selecionado: {
-                      formData.evento === 'programaria' ? '👩🏽‍💻 PrograMaria Summit 2025' :
-                      formData.evento === 'tdc-sp' ? '🖥️ The Developers Conference São Paulo' : ''
-                    }
+                    ✓ Evento selecionado: 🖥️ The Developers Conference São Paulo - Abril de 2026
                   </div>
                 )}
               </div>
@@ -445,13 +408,13 @@ export default function Sorteios() {
                   disabled={isSubmitting}
                   className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:bg-gray-400 disabled:cursor-not-allowed"
                 >
-                  {isSubmitting ? "Enviando..." : "Participar dos Sorteios"}
+                  {isSubmitting ? "Enviando..." : "Participar do Sorteio"}
                 </button>
               </div>
 
               <div className="text-center">
                 <p className="text-xs text-gray-500">
-                  Ao se cadastrar, você concorda em receber emails sobre sorteios e novidades. 
+                  Ao se cadastrar, você concorda em receber emails sobre o sorteio e novidades. 
                   Você pode cancelar a qualquer momento.
                 </p>
               </div>
