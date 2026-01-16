@@ -19,87 +19,111 @@ interface Event {
 export default function List() {
   const upcomingEvents: Event[] = [
     {
-      id: 15,
-      title: "Fórum E-Commerce Brasil 2025",
-      date: "29, 30 e 31 de julho de 2025",
-      location: "Distrito Anhembi - São Paulo/SP",
-      description: "Três dias de conteúdo de altíssima qualidade, networking estratégico e oportunidades de negócio reais. Varejo e Indústria se reúnem com grandes marcas de soluções para e-commerce para impulsionar o desenvolvimento do setor e construir o futuro do comércio eletrônico.",
-      status: "Lote 4 disponível",
-      link: {
-        url: "https://eventos.ecommercebrasil.com.br/forum",
-        text: "ecommercebrasil.com.br"
-      }
-    },
-    {
-      id: 17,
-      title: "FIAP + ALURA | Lives IA em 4 Dimensões",
-      date: "04 a 07 de agosto de 2025",
-      location: "YouTube - 19h30",
-      description: "Descubra como a Inteligência Artificial está revolucionando o mercado em 4 áreas estratégicas: DEV, BUSINESS, DATA e CYBER. Lives gratuitas com especialistas do mercado, aplicações práticas e estratégias reais adotadas por empresas líderes.",
-      status: "Lives gratuitas com certificado por live",
-      link: {
-        url: "https://link.danvitoriano.com.br/fiap",
-        text: "Inscreva-se gratuitamente"
-      }
-    },
-    {
-      id: 16,
-      title: "Imersão Dados com Python - Alura",
-      date: "05 a 08 de agosto de 2025",
-      location: "100% Online",
-      description: "Aprenda Python do zero, crie dashboards interativos e acelere sua carreira em dados. Em 4 dias, você sai do zero em Python e cria um dashboard real. Evento gratuito com suporte de especialistas e certificado de participação.",
-      status: "Evento gratuito com certificado",
-      link: {
-        url: "https://link.danvitoriano.com.br/python",
-        text: "Inscreva-se gratuitamente"
-      }
-    },
-    {
       id: 1,
-      title: "IA Conference Brasil",
-      date: "13 de agosto de 2025",
-      location: "Centro de Convenções Rebouças, São Paulo",
-      description: "Conferência sobre Inteligência Artificial e suas aplicações no mercado brasileiro. Foco em inovação, ética e futuro da tecnologia.",
-      status: "Um evento Alura | Cupom DANVITORIANO10 - 10% de desconto",
+      title: "Smart City Expo Curitiba",
+      date: "18 de março de 2026",
+      location: "Curitiba, PR",
+      description: "Evento focado em cidades inteligentes, urbanismo, governança e inteligência artificial. Discussões sobre tecnologias que transformam a gestão urbana e a qualidade de vida nas cidades.",
+      status: "Inscrições abertas",
       link: {
-        url: "https://link.danvitoriano.com.br/iaconference",
-        text: "Inscreva-se com desconto"
+        url: "https://www.smartcityexpocuritiba.com.br/",
+        text: "smartcityexpocuritiba.com.br"
       }
     },
     {
-      id: 13,
-      title: "Rio Innovation Week + TDC Experience",
-      date: "De 12 a 15 de agosto de 2025",
-              location: "Pier Mauá, Rio de Janeiro",
-      description: "Um dos maiores eventos de inovação do país! Vou mediar um painel especial no encerramento (15/08 às 18h), em parceria com o TDC Experience, abordando viéses, diversidade e acessibilidade na Inteligência Artificial. Uma oportunidade única de discutir inclusão no mercado tech com convidados especialistas.",
-      status: "Stone sorteando ingressos gratuitos para grupos subrepresentados",
+      id: 2,
+      title: "BioTECH Fair",
+      date: "18 a 20 de março de 2026",
+      location: "Porto Alegre, RS",
+      description: "Feira focada em inovação ambiental, energias limpas e tecnologias sustentáveis. Reunindo empresas, startups e especialistas em biotecnologia e soluções verdes para o futuro.",
+      status: "Evento presencial",
       link: {
-        url: "https://link.danvitoriano.com.br/stone",
-        text: "Inscreva-se para concorrer"
-      }
-    },
-    {
-      id: 14,
-      title: "World Neurotechnologies Forum (WNF)",
-      date: "26 de agosto de 2025",
-      location: "Teatro Santander - São Paulo/SP",
-      description: "O maior evento de neurotecnologia da América Latina. Tema: \"Engenharia da Mente - Reconstruindo a Nossa Humanidade\". Evento presencial e online das 8h às 19h, reunindo especialistas em neurociência, IA, interfaces cérebro-máquina e tecnologias emergentes.",
-      status: "Cupom NEUROTECH20 com desconto | Sorteio de ingressos na seção Sorteios",
-      link: {
-        url: "https://wnf.global/",
-        text: "wnf.global"
+        url: "https://www.biotechfair.com.br/",
+        text: "biotechfair.com.br"
       }
     },
     {
       id: 3,
-      title: "Programaria Summit 10 Anos",
-      date: "18 de outubro de 2025",
-      location: "UNIP Indianópolis - São Paulo",
-      description: "Celebração dos 10 anos da Programaria, organização que promove a diversidade de gênero na tecnologia. Evento com palestras, painéis, workshops, feira de oportunidades e networking.",
-      status: "Sorteio de 10 ingressos para mulheres cis ou trans",
+      title: "WTM Latin America 2026",
+      date: "14 a 16 de abril de 2026",
+      location: "Expo Center Norte - São Paulo/SP",
+      description: "Maior feira B2B de turismo da América Latina. Networking, negócios internacionais e tendências do setor de turismo e hospitalidade.",
+      status: "Feira de negócios",
       link: {
-        url: "/sorteios",
-        text: "Participar do sorteio"
+        url: "https://www.wtm.com/latin-america/",
+        text: "wtm.com/latin-america"
+      }
+    },
+    {
+      id: 4,
+      title: "VTEX Day",
+      date: "16 a 17 de abril de 2026",
+      location: "São Paulo, SP",
+      description: "Evento anual da VTEX reunindo líderes de e-commerce, varejo digital e tecnologia. Palestras sobre inovação, cases de sucesso e o futuro do comércio eletrônico.",
+      status: "Evento presencial e online",
+      link: {
+        url: "https://vtex.com/br-pt/vtexday/",
+        text: "vtex.com/vtexday"
+      }
+    },
+    {
+      id: 5,
+      title: "Web Summit Rio 2026",
+      date: "8 a 11 de junho de 2026",
+      location: "Rio de Janeiro, RJ",
+      description: "Uma das maiores conferências de tecnologia do mundo chega ao Brasil. Startups, investidores, grandes empresas e líderes tech discutindo IA, inovação, futuro digital e transformação tecnológica.",
+      status: "Ingressos disponíveis",
+      link: {
+        url: "https://websummit.com/rio",
+        text: "websummit.com/rio"
+      }
+    },
+    {
+      id: 6,
+      title: "Minas Summit 2026",
+      date: "17 a 18 de junho de 2026",
+      location: "Belo Horizonte, MG",
+      description: "Evento de inovação, empreendedorismo e transformação digital com foco no ecossistema de startups e tecnologia de Minas Gerais e região.",
+      status: "Evento regional",
+      link: {
+        url: "https://minassummit.com.br/",
+        text: "minassummit.com.br"
+      }
+    },
+    {
+      id: 7,
+      title: "Startup Summit",
+      date: "26 a 28 de agosto de 2026",
+      location: "Florianópolis, SC",
+      description: "O maior evento de empreendedorismo e inovação do Sul do Brasil. Startups, investidores, mentorias, networking e conteúdo sobre tecnologia e negócios.",
+      status: "Inscrições em breve",
+      link: {
+        url: "https://startupsummit.com.br/",
+        text: "startupsummit.com.br"
+      }
+    },
+    {
+      id: 8,
+      title: "ABAV Expo",
+      date: "30 de setembro a 2 de outubro de 2026",
+      location: "Expo Center Norte - São Paulo/SP",
+      description: "Feira internacional de turismo da ABAV (Associação Brasileira de Agências de Viagens). Networking, negócios e tendências do setor de turismo.",
+      status: "Feira de negócios",
+      link: {
+        url: "https://www.abavexpo.com.br/",
+        text: "abavexpo.com.br"
+      }
+    },
+    {
+      id: 9,
+      title: "Futurecom 2026",
+      date: "6 a 8 de outubro de 2026",
+      location: "São Paulo, SP",
+      description: "Maior evento de tecnologia, telecomunicações e transformação digital da América Latina. Discussões sobre 5G, IoT, cloud computing, IA e o futuro da conectividade.",
+      status: "Evento presencial",
+      link: {
+        url: "https://www.futurecom.com.br/",
+        text: "futurecom.com.br"
       }
     }
     
@@ -107,7 +131,91 @@ export default function List() {
 
   const pastEvents: Event[] = [
     {
-      id: 2,
+      id: 10,
+      title: "Programaria Summit 10 Anos",
+      date: "18 de outubro de 2025",
+      location: "UNIP Indianópolis - São Paulo",
+      description: "Celebração dos 10 anos da Programaria, organização que promove a diversidade de gênero na tecnologia. Evento com palestras, painéis, workshops, feira de oportunidades e networking.",
+      status: null,
+      link: {
+        url: "https://www.programaria.org/",
+        text: "programaria.org"
+      }
+    },
+    {
+      id: 11,
+      title: "World Neurotechnologies Forum (WNF)",
+      date: "26 de agosto de 2025",
+      location: "Teatro Santander - São Paulo/SP",
+      description: "O maior evento de neurotecnologia da América Latina. Tema: \"Engenharia da Mente - Reconstruindo a Nossa Humanidade\". Evento presencial e online das 8h às 19h, reunindo especialistas em neurociência, IA, interfaces cérebro-máquina e tecnologias emergentes.",
+      status: null,
+      link: {
+        url: "https://wnf.global/",
+        text: "wnf.global"
+      }
+    },
+    {
+      id: 12,
+      title: "Rio Innovation Week + TDC Experience",
+      date: "De 12 a 15 de agosto de 2025",
+      location: "Pier Mauá, Rio de Janeiro",
+      description: "Um dos maiores eventos de inovação do país! Vou mediar um painel especial no encerramento (15/08 às 18h), em parceria com o TDC Experience, abordando viéses, diversidade e acessibilidade na Inteligência Artificial. Uma oportunidade única de discutir inclusão no mercado tech com convidados especialistas.",
+      status: null,
+      link: {
+        url: "https://rioinnovationweek.com.br/",
+        text: "rioinnovationweek.com.br"
+      }
+    },
+    {
+      id: 13,
+      title: "IA Conference Brasil",
+      date: "13 de agosto de 2025",
+      location: "Centro de Convenções Rebouças, São Paulo",
+      description: "Conferência sobre Inteligência Artificial e suas aplicações no mercado brasileiro. Foco em inovação, ética e futuro da tecnologia.",
+      status: null,
+      link: {
+        url: "https://www.alura.com.br/",
+        text: "alura.com.br"
+      }
+    },
+    {
+      id: 14,
+      title: "Imersão Dados com Python - Alura",
+      date: "05 a 08 de agosto de 2025",
+      location: "100% Online",
+      description: "Aprenda Python do zero, crie dashboards interativos e acelere sua carreira em dados. Em 4 dias, você sai do zero em Python e cria um dashboard real. Evento gratuito com suporte de especialistas e certificado de participação.",
+      status: null,
+      link: {
+        url: "https://www.alura.com.br/",
+        text: "alura.com.br"
+      }
+    },
+    {
+      id: 15,
+      title: "FIAP + ALURA | Lives IA em 4 Dimensões",
+      date: "04 a 07 de agosto de 2025",
+      location: "YouTube - 19h30",
+      description: "Descubra como a Inteligência Artificial está revolucionando o mercado em 4 áreas estratégicas: DEV, BUSINESS, DATA e CYBER. Lives gratuitas com especialistas do mercado, aplicações práticas e estratégias reais adotadas por empresas líderes.",
+      status: null,
+      link: {
+        url: "https://www.fiap.com.br/",
+        text: "fiap.com.br"
+      }
+    },
+    {
+      id: 16,
+      title: "Fórum E-Commerce Brasil 2025",
+      date: "29, 30 e 31 de julho de 2025",
+      location: "Distrito Anhembi - São Paulo/SP",
+      description: "Três dias de conteúdo de altíssima qualidade, networking estratégico e oportunidades de negócio reais. Varejo e Indústria se reúnem com grandes marcas de soluções para e-commerce para impulsionar o desenvolvimento do setor e construir o futuro do comércio eletrônico.",
+      status: null,
+      link: {
+        url: "https://eventos.ecommercebrasil.com.br/forum",
+        text: "ecommercebrasil.com.br"
+      }
+    },
+    {
+      id: 17,
       title: "Codecon Summit 2025",
       date: "18 e 19 de julho de 2025",
       description: "Um dos maiores encontros dev do sul do mundo. Tema: \"The Hacker Way\". Viasoft Experience, Curitiba-PR.",
@@ -118,7 +226,7 @@ export default function List() {
       }
     },
     {
-      id: 4,
+      id: 18,
       title: "Meetup FIAP Orgulho Tech",
       date: "17 de junho de 2025",
       description: "Meetup especial sobre diversidade LGBTQIA+ na tecnologia, realizado na FIAP em São Paulo. Tema: \"Envelhecer na Tecnologia\". Evento contou com premiação e reconhecimento de profissionais LGBTQIA+ que contribuem para a diversidade no setor tech.",
@@ -129,18 +237,7 @@ export default function List() {
       }
     },
     {
-      id: 5,
-      title: "Devs 40+ Conference",
-      date: "28 de outubro de 2023",
-      description: "1ª edição da conferência de profissionais maduras na tecnologia.",
-      status: null,
-      link: {
-        url: "https://www.devs40mais.com.br/",
-        text: "Devs 40+ Conference"
-      }
-    },
-    {
-      id: 6,
+      id: 19,
       title: "Rio Innovation Week",
       date: "De 13 a 16 de Agosto de 2024",
       location: "Pier Máua - Rio de Janeiro",
@@ -152,7 +249,7 @@ export default function List() {
       }
     },
     {
-      id: 7,
+      id: 20,
       title: "User Conference Brasil 2024",
       date: "7 e 8 de agosto de 2024",
       description: "Evento da ManageEngine para usuários de seus produtos, com foco em gerenciamento de TI e infraestrutura.",
@@ -163,7 +260,7 @@ export default function List() {
       }
     },
     {
-      id: 8,
+      id: 21,
       title: "Mentoria para Todes",
       date: "13 de julho de 2024",
       description: "Será um dia de sessões de mentorias individuais gratuitas com especialistas e referências no mercado para potencializar a carreira de pessoas da nossa comunidade.",
@@ -174,7 +271,7 @@ export default function List() {
       }
     },
     {
-      id: 9,
+      id: 22,
       title: "Maratona do Orgulho",
       date: "25 de junho de 2024",
       description: "Os futuros desejáveis acontecem primeiro nos sonhos, no mês do orgulho, vamos sonhar juntos? Um evento completo para você viver uma experiência imersiva e aprender com os melhores do mercado.",
@@ -185,7 +282,7 @@ export default function List() {
       }
     },
     {
-      id: 10,
+      id: 23,
       title: "FIAP + Alura",
       date: "21 de junho de 2024",
       description: "A importância do letramento LGBTQIAPN+ como uma ferramenta fundamental para promover a compreensão, o respeito e a inclusão em todos os espaços e contextos.",
@@ -197,7 +294,7 @@ export default function List() {
       }
     },
     {
-      id: 11,
+      id: 24,
       title: "Monday @ Page (Pride Edition)",
       date: "17 de junho de 2024",
       description: "Os desafios e oportunidades para a comunidade LGBTQIA+ e a importância da representatividade, da inclusão e da construção de um ambiente de trabalho mais diversos. Através de dados, exemplos e estratégias, convido empresas e profissionais a se engajarem na promoção da diversidade como um impulsionador da inovação.",
@@ -213,7 +310,7 @@ export default function List() {
       }
     },
     {
-      id: 12,
+      id: 25,
       title: "Reply Xchange",
       date: "13 de junho de 2024",
       description: null,
@@ -222,6 +319,17 @@ export default function List() {
       link: {
         url: "https://www.reply.com/pt/xchange",
         text: "Reply Xchange"
+      }
+    },
+    {
+      id: 26,
+      title: "Devs 40+ Conference",
+      date: "28 de outubro de 2023",
+      description: "1ª edição da conferência de profissionais maduras na tecnologia.",
+      status: null,
+      link: {
+        url: "https://www.devs40mais.com.br/",
+        text: "Devs 40+ Conference"
       }
     }
   ];
