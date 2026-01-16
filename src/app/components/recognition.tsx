@@ -41,9 +41,11 @@ const recognitions = [
 
 const stats = [
   { label: "Seguidores no LinkedIn", value: "31.648+" },
-  { label: "Publicações", value: "3.000+" },
-  { label: "Artigos publicados", value: "30+" },
-  { label: "Seguidores no Twitter/X", value: "4.000+" },
+  { label: "Seguidores no Instagram", value: "30K" },
+  { label: "Seguidores no TikTok", value: "18.5K" },
+  { label: "Inscritos no YouTube", value: "4.2K" },
+  { label: "Seguidores no Twitter/X", value: "4K" },
+  { label: "Publicações no LinkedIn", value: "3.000+" },
 ];
 
 export default function Recognition() {
@@ -90,7 +92,7 @@ export default function Recognition() {
         {/* Stats */}
         <div className="mx-auto mt-16 max-w-7xl">
           <dl
-            className={`grid grid-cols-2 gap-8 sm:grid-cols-4 transition-all duration-1000 ${
+            className={`grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-6 transition-all duration-1000 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >
@@ -149,14 +151,21 @@ export default function Recognition() {
           style={{ transitionDelay: "1000ms" }}
         >
           <h3 className="text-xl font-bold text-gray-900 mb-4">
-            🏆 Destaque Especial
+            🏆 Destaques Especiais
           </h3>
-          <p className="text-gray-700">
-            Reconhecido pela <strong>Gama Academy</strong> como um dos{" "}
-            <strong>50 Programadores a se seguir</strong>, destacando a
-            contribuição para a comunidade tech brasileira através de conteúdo
-            educacional, iniciativas de diversidade e liderança de comunidades.
-          </p>
+          <div className="space-y-4">
+            <p className="text-gray-700">
+              <strong>Top 150 Profissionais LGBTQIA+</strong> reconhecido pela 
+              Maratona do Orgulho em 2025, destacando a liderança e impacto na 
+              promoção da diversidade no mercado de tecnologia.
+            </p>
+            <p className="text-gray-700">
+              Reconhecido pela <strong>Gama Academy</strong> como um dos{" "}
+              <strong>50 Programadores a se seguir</strong>, destacando a
+              contribuição para a comunidade tech brasileira através de conteúdo
+              educacional, iniciativas de diversidade e liderança de comunidades.
+            </p>
+          </div>
         </div>
 
         {/* Tech Focus */}
