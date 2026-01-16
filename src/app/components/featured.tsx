@@ -67,10 +67,10 @@ export default function Feature({titulo}: any) {
                 Conteúdo em tecnologia
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Sou professor de tecnologia, publicitário e LinkedIn Top Voice
-                em Desenvolvimento de Software, gerando impacto através da
-                promoção de eventos, formação de comunidades e a gestão de
-                canais de comunicação como:
+                Sou UI Engineer, professor na FIAP, publicitário e LinkedIn Top Voice
+                em Desenvolvimento de Software. Com mais de 31 mil seguidores no LinkedIn
+                e mestrando em Ciência da Computação na USP, atuo gerando impacto através da
+                promoção de eventos, formação de comunidades e gestão de canais de comunicação como:
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature, index) => (
@@ -96,7 +96,7 @@ export default function Feature({titulo}: any) {
           </div>
           <img
             src="/images/home-danvitoriano.jpg"
-            alt="Product screenshot"
+            alt="Dan Vitoriano - UI Engineer, Professor e Criador de Comunidades Tech"
             className={`w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 transition-all duration-1000 hover:scale-105 hover:shadow-2xl ${
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
             }`}
