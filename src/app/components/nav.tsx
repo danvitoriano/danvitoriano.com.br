@@ -37,27 +37,42 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="float-start absolute left-0 top-0" ref={ref}>
-      <button onClick={() => setNavbarOpen((prev) => !prev)} className="p-7">
-        {navbarOpen ? <RiCloseLine /> : <RiMenuLine />}
+    <nav className="float-start absolute left-0 top-0 z-50" ref={ref}>
+      <button 
+        onClick={() => setNavbarOpen((prev) => !prev)} 
+        className="p-7 transition-all duration-300 hover:scale-110 hover:bg-gray-100 rounded-full"
+      >
+        {navbarOpen ? (
+          <RiCloseLine className="transition-transform duration-300 rotate-90" />
+        ) : (
+          <RiMenuLine className="transition-transform duration-300" />
+        )}
       </button>
       <ul
         id="ul-menu"
-        className={`absolute bg-white opacity-95 text-black w-screen left-0 h-screen text-center p-4 text-sm ${
-          navbarOpen ? " show" : "hidden"
+        className={`absolute bg-white text-black w-screen left-0 h-screen text-center p-4 text-sm transition-all duration-500 ${
+          navbarOpen ? "opacity-95 translate-x-0" : "opacity-0 -translate-x-full pointer-events-none"
         }`}
       >
-        {
-          // @ts-ignore
-          menuItems.map((item) => (
-            <li key={item.name} className="p-4 text-lg">
-              <Link href={item.href} onClick={() => setNavbarOpen(false)}>
-                {item.name}
-              </Link>
-            </li>
-          ))
-        }
+        {menuItems.map((item, index) => (
+          <li 
+            key={item.name} 
+            className={`p-4 text-lg transition-all duration-500 hover:scale-110 hover:text-indigo-600 ${
+              navbarOpen ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
+            }`}
+            style={{ transitionDelay: navbarOpen ? `${index * 50}ms` : '0ms' }}
+          >
+            <Link 
+              href={item.href} 
+              onClick={() => setNavbarOpen(false)}
+              className="block transition-all duration-300 hover:font-semibold"
+            >
+              {item.name}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
 }
+

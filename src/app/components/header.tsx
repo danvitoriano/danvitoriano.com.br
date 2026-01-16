@@ -17,13 +17,13 @@ export default function Header() {
 
   return (
     <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50">
+      <header className="absolute inset-x-0 top-0 z-50 animate-fade-in-down">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5 transition-transform duration-300 hover:scale-110">
               <span className="sr-only">Dan Vitoriano</span>
               <img
                 className="h-8 w-auto"
@@ -35,7 +35,7 @@ export default function Header() {
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 transition-all duration-300 hover:scale-110 hover:bg-gray-100"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -43,11 +43,12 @@ export default function Header() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map((item) => (
+            {navigation.map((item, index) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-gray-900 transition-all duration-300 hover:text-indigo-600 hover:scale-110 animate-fade-in-down"
+                style={{ animationDelay: `${(index + 1) * 100}ms` }}
               >
                 {item.name}
               </a>
@@ -56,9 +57,9 @@ export default function Header() {
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
               href="https://recomerce3.lojavirtualnuvem.com.br"
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-sm font-semibold leading-6 text-gray-900 transition-all duration-300 hover:text-indigo-600 group"
             >
-              Loja <span aria-hidden="true">&rarr;</span>
+              Loja <span aria-hidden="true" className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
             </a>
           </div>
         </nav>
@@ -67,9 +68,9 @@ export default function Header() {
           open={mobileMenuOpen}
           onClose={setMobileMenuOpen}
         >
-          <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex items-center justify-between">
+          <div className="fixed inset-0 z-50 bg-black/20 backdrop-blur-sm transition-opacity duration-300" />
+          <DialogPanel className={`fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-all duration-500 ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className="flex items-center justify-between animate-fade-in-down">
               <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Dan Vitoriano</span>
                 <img
@@ -80,7 +81,7 @@ export default function Header() {
               </a>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 rounded-md p-2.5 text-gray-700 transition-all duration-300 hover:scale-110 hover:bg-gray-100 hover:rotate-90"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -90,11 +91,14 @@ export default function Header() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  {navigation.map((item) => (
+                  {navigation.map((item, index) => (
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-all duration-500 hover:scale-105 hover:text-indigo-600 ${
+                        mobileMenuOpen ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
+                      }`}
+                      style={{ transitionDelay: mobileMenuOpen ? `${(index + 1) * 50}ms` : '0ms' }}
                     >
                       {item.name}
                     </a>
@@ -103,7 +107,10 @@ export default function Header() {
                 <div className="py-6">
                   <a
                     href="https://recomerce3.lojavirtualnuvem.com.br"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className={`-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-all duration-500 hover:scale-105 hover:text-indigo-600 ${
+                      mobileMenuOpen ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
+                    }`}
+                    style={{ transitionDelay: mobileMenuOpen ? `${(navigation.length + 1) * 50}ms` : '0ms' }}
                   >
                     Loja
                   </a>
