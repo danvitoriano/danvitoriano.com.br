@@ -10,7 +10,7 @@ const navigation = [
     { name: "Eventos", href: "/eventos" },
     { name: "Publicidade", href: "/publicidade" },
     { name: "Sorteios", href: "/sorteios" },
-    { name: "Blog", href: "https://danvitoriano.substack.com" },
+    { name: "Blog", href: "https://danvitoriano.substack.com", external: true },
 ];
 
 export default function Header() {
@@ -48,6 +48,8 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
+                target={item.external ? "_blank" : undefined}
+                rel={item.external ? "noopener noreferrer" : undefined}
                 className="text-sm font-semibold leading-6 text-gray-900 transition-all duration-300 hover:text-indigo-600 hover:scale-110 animate-fade-in-down"
                 style={{ animationDelay: `${(index + 1) * 100}ms` }}
               >
@@ -96,6 +98,8 @@ export default function Header() {
                     <a
                       key={item.name}
                       href={item.href}
+                      target={item.external ? "_blank" : undefined}
+                      rel={item.external ? "noopener noreferrer" : undefined}
                       className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-all duration-500 hover:scale-105 hover:text-indigo-600 ${
                         mobileMenuOpen ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
                       }`}

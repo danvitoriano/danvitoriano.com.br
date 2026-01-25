@@ -24,25 +24,27 @@ export default function ContactPage() {
         </p>
         <hr className="my-8 border-gray-200" />
         <h2 className="text-1xl tracking-tight text-gray-900 sm:text-4xl pt-16">
-          Newsletter
+          Fora da Bolha Tech News
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
           Receba as novidades do blog e do canal no seu email.
         </p>
-        <Image src="/images/newsletter-substack.png" alt="Entre em contato" width={600} height={333} className="py-8" />
+        <Image src="/images/newsletter-substack.png" alt="Fora da Bolha Tech News" width={600} height={333} className="py-8" />
         
         <div>
-              <button
-                type="submit"
+              <a
+                href="https://danvitoriano.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Assinar Newsletter
-              </button>
+              </a>
             </div>
             <p className="mt-10 text-left text-sm text-gray-500">
-            Procurando meu Mídia Kir?{' '}
-            <a href="https://www.canva.com/design/DAEtHvpYXe4/37YTn4mjOvkAMt0r-bK85w/view?website#4" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500" target="_blank">
-              Acesse online aqui.
+            Quer fazer publicidade comigo?{' '}
+            <a href="/publicidade" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+              Confira as marcas parceiras e meu mídia kit.
             </a>
           </p>
       </div>

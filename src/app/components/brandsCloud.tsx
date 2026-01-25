@@ -69,13 +69,24 @@ export default function BrandsCloud() {
             nas redes sociais e um público engajado na área de tecnologia, posso ajudar sua marca a alcançar 
             desenvolvedores, profissionais de TI e entusiastas de tecnologia.
           </p>
-          <a
-            href="/contact"
-            className="inline-flex items-center rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all duration-300 hover:scale-105"
-          >
-            Entre em contato
-            <span className="ml-2" aria-hidden="true">→</span>
-          </a>
+          <div className="flex flex-wrap gap-4">
+            <a
+              href="https://beacons.ai/danvitoriano/mediakit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-md bg-white px-4 py-2 text-sm font-semibold text-indigo-600 shadow-sm ring-1 ring-inset ring-indigo-600 hover:bg-indigo-50 transition-all duration-300 hover:scale-105"
+            >
+              Ver mídia kit
+              <span className="ml-2" aria-hidden="true">↗</span>
+            </a>
+            <a
+              href="/contact"
+              className="inline-flex items-center rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all duration-300 hover:scale-105"
+            >
+              Entre em contato
+              <span className="ml-2" aria-hidden="true">→</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

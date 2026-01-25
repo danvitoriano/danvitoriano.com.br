@@ -103,8 +103,8 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <a className="hover:underline" href="https://danvitoriano.substack.com">
-                    Newsletter
+                  <a className="hover:underline" href="https://danvitoriano.substack.com" target="_blank" rel="noopener noreferrer">
+                    Fora da Bolha Tech News
                   </a>
                 </li>
                 <li className="mb-4">
