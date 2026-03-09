@@ -34,7 +34,7 @@ export default function Hero() {
               Dan Vitoriano, developer e tech creator.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 animate-fade-in-up animation-delay-400">
-              Criador de comunidades tech inclusivas. Consultoria em conteúdo, eventos e podcasts para diversidade, impacto social e inovação no mercado de tecnologia.
+              Consultor em tecnologia e IA com foco em diversidade e inclusão. Criador de comunidades tech inclusivas, eventos e podcasts para impacto social e representatividade no mercado tech.
             </p>
             
             {/* Botões com animação */}

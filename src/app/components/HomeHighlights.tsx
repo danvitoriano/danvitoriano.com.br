@@ -120,7 +120,7 @@ export default function HomeHighlights() {
             </a>
 
             <a
-              href="https://link.danvitoriano.com.br/python"
+              href="https://link.danvitoriano.com.br/alura"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col rounded-2xl bg-white ring-1 ring-gray-200 p-6 hover:ring-blue-300 hover:shadow-lg transition-all duration-300"
