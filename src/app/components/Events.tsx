@@ -19,18 +19,6 @@ interface Event {
 export default function List() {
   const upcomingEvents: Event[] = [
     {
-      id: 0,
-      title: "Woman & Queer Tech",
-      date: "19 de março de 2026",
-      location: "São Paulo, SP",
-      description: "Encontro gratuito que nasce da união de Orgulho Tech, Devs 40+ e Elas Programam. Um espaço seguro e acolhedor para trocas sobre carreira, tecnologia, diversidade, longevidade profissional e pertencimento — com painel de discussão, networking e coffee break. Presencial + transmissão online.",
-      status: "Entrada gratuita · Período noturno",
-      link: {
-        url: "https://www.orgulhotech.com.br/",
-        text: "orgulhotech.com.br"
-      }
-    },
-    {
       id: 1,
       title: "Smart City Expo Curitiba",
       date: "18 de março de 2026",
@@ -52,6 +40,18 @@ export default function List() {
       link: {
         url: "https://www.biotechfair.com.br/",
         text: "biotechfair.com.br"
+      }
+    },
+    {
+      id: 0,
+      title: "Woman & Queer Tech",
+      date: "19 de março de 2026",
+      location: "Blip — Av. Brigadeiro Faria Lima, 4221, Itaim Bibi, São Paulo, SP",
+      description: "Encontro gratuito que nasce da união de Orgulho Tech, Devs 40+ e Elas Programam. Um espaço seguro e acolhedor para trocas sobre carreira, tecnologia, diversidade, longevidade profissional e pertencimento — com painel de discussão, networking e coffee break. Presencial + transmissão online.",
+      status: "Entrada gratuita · Período noturno",
+      link: {
+        url: "https://www.meetup.com/pt-br/orgulhotech/events/313611019/",
+        text: "meetup.com/orgulhotech"
       }
     },
     {
@@ -419,68 +419,63 @@ export default function List() {
   return (
     <>
       {/* Hero — Woman & Queer Tech */}
-      <div className="relative bg-gradient-to-br from-purple-950 via-indigo-900 to-violet-900 overflow-hidden">
+      <div className="relative bg-gradient-to-br from-purple-50 via-fuchsia-50 to-indigo-100 overflow-hidden">
         {/* Blob decorativo */}
         <div
           className="absolute inset-x-0 top-0 -z-10 transform-gpu overflow-hidden blur-3xl"
           aria-hidden="true"
         >
           <div
-            className="relative left-[calc(50%-15rem)] w-[50rem] aspect-[1155/678] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] via-[#9089fc] to-[#38bdf8] opacity-20"
+            className="relative left-[calc(50%-15rem)] w-[50rem] aspect-[1155/678] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] via-[#9089fc] to-[#818cf8] opacity-30"
             style={{ clipPath: "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" }}
           />
         </div>
 
         <div className="mx-auto max-w-4xl px-6 py-24 sm:py-32 lg:px-8 text-center">
           {/* Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-white ring-1 ring-white/20 backdrop-blur-sm">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-1.5 text-sm font-medium text-purple-700 ring-1 ring-purple-200">
             <span>👑</span> Próximo grande evento
           </div>
 
           {/* Título */}
-          <h1 className="text-5xl font-bold tracking-tight text-white sm:text-7xl">
+          <h1 className="text-5xl font-bold tracking-tight text-purple-900 sm:text-7xl">
             Woman &amp; Queer Tech
           </h1>
 
           {/* Meta */}
-          <p className="mt-5 text-lg font-medium text-purple-200">
+          <p className="mt-5 text-lg font-medium text-purple-600">
             19 de março de 2026 &nbsp;·&nbsp; Presencial + Online &nbsp;·&nbsp;{" "}
-            <span className="text-white font-semibold">Gratuito</span>
+            <span className="text-purple-900 font-semibold">Gratuito</span>
+          </p>
+          <p className="mt-2 text-sm text-purple-500">
+            📍 Blip — Av. Brigadeiro Faria Lima, 4221 · Itaim Bibi, São Paulo, SP
           </p>
 
           {/* Descrição */}
-          <p className="mt-6 text-base leading-8 text-gray-300 max-w-2xl mx-auto">
-            Um encontro que nasce da união de <strong className="text-white">Orgulho Tech</strong>,{" "}
-            <strong className="text-white">Devs 40+</strong> e{" "}
-            <strong className="text-white">Elas Programam</strong>. Um espaço seguro, acolhedor
+          <p className="mt-6 text-base leading-8 text-gray-600 max-w-2xl mx-auto">
+            Um encontro que nasce da união de <strong className="text-purple-900">Orgulho Tech</strong>,{" "}
+            <strong className="text-purple-900">Devs 40+</strong> e{" "}
+            <strong className="text-purple-900">Elas Programam</strong>. Um espaço seguro, acolhedor
             e inspirador para trocas reais sobre carreira, diversidade e pertencimento na tecnologia.
           </p>
 
           {/* CTAs */}
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <a
-              href="https://www.orgulhotech.com.br/"
+              href="https://www.meetup.com/pt-br/orgulhotech/events/313611019/"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-purple-900 shadow-sm hover:bg-purple-50 transition-all duration-300 hover:scale-105"
+              className="rounded-md bg-purple-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-purple-800 transition-all duration-300 hover:scale-105"
             >
-              Saiba mais
-            </a>
-            <a
-              href="https://www.elasprogramam.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-md bg-white/10 px-6 py-3 text-sm font-semibold text-white ring-1 ring-white/20 hover:bg-white/20 transition-all duration-300"
-            >
-              Elas Programam →
+              Inscreva-se Grátis
             </a>
           </div>
 
           {/* Comunidades */}
-          <div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-purple-300">
-            <span>🏳️‍🌈 Orgulho Tech</span>
-            <span>⚡ Devs 40+</span>
-            <span>💜 Elas Programam</span>
+          <div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-purple-500">
+            <a href="https://www.orgulhotech.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-800 transition-colors">🏳️‍🌈 Orgulho Tech</a>
+            <a href="https://www.devs40mais.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-800 transition-colors">⚡ Devs 40+</a>
+            <a href="https://www.elasprogramam.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-800 transition-colors">💜 Elas Programam</a>
           </div>
         </div>
       </div>
