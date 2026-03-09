@@ -19,11 +19,11 @@ export default function Hero() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           {/* Badge com animação de entrada */}
           <div className="hidden sm:mb-8 sm:flex sm:justify-center animate-fade-in-down">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 transition-all duration-300 hover:scale-105 hover:shadow-lg group">
-              Orgulho Tech 2025 - Envelhecer LGBT+ na tecnologia{" "}
-              <a href="https://orgulhotech.com.br/" target="_blank" className="font-semibold text-indigo-600">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-purple-400/40 transition-all duration-300 hover:scale-105 hover:shadow-lg group">
+              🏳️‍🌈 Woman &amp; Queer Tech · 19 mar · Blip SP · Gratuito{" "}
+              <a href="https://www.meetup.com/pt-br/orgulhotech/events/313611019/" target="_blank" rel="noopener noreferrer" className="font-semibold text-purple-600">
                 <span className="absolute inset-0" aria-hidden="true" />
-                Veja como foi <span aria-hidden="true" className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
+                Inscreva-se <span aria-hidden="true" className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
               </a>
             </div>
           </div>

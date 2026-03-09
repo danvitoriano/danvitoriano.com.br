@@ -1,3 +1,6 @@
+'use client';
+import { useState } from 'react';
+
 interface Event {
   id: number;
   title: string;
@@ -16,7 +19,11 @@ interface Event {
   };
 }
 
+const PAST_EVENTS_PER_PAGE = 5;
+
 export default function List() {
+  const [visiblePast, setVisiblePast] = useState(PAST_EVENTS_PER_PAGE);
+
   const upcomingEvents: Event[] = [
     {
       id: 1,
@@ -511,8 +518,19 @@ export default function List() {
                 Eventos Passados
               </h3>
               <div className="space-y-6">
-                {pastEvents.map(event => renderEvent(event, true))}
+                {pastEvents.slice(0, visiblePast).map(event => renderEvent(event, true))}
               </div>
+
+              {visiblePast < pastEvents.length && (
+                <div className="mt-8 flex justify-center">
+                  <button
+                    onClick={() => setVisiblePast(v => v + PAST_EVENTS_PER_PAGE)}
+                    className="rounded-md bg-white px-6 py-2.5 text-sm font-semibold text-gray-700 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 transition-all duration-300 hover:scale-105"
+                  >
+                    Carregar Mais
+                  </button>
+                </div>
+              )}
             </div>
           </dl>
         </div>
