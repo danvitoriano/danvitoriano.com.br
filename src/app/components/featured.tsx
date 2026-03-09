@@ -61,16 +61,18 @@ export default function Feature({titulo}: any) {
           <div className={`lg:pr-8 lg:pt-4 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <div className="lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-indigo-600">
-                Criatividade e inovação
+                Consultoria · Educação · Diversidade
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Conteúdo em tecnologia
+                Tecnologia e IA com propósito
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Sou UI Engineer, professor na FIAP, publicitário e LinkedIn Top Voice
-                em Desenvolvimento de Software. Com mais de 31 mil seguidores no LinkedIn
-                e mestrando em Ciência da Computação na USP, atuo gerando impacto através da
-                promoção de eventos, formação de comunidades e gestão de canais de comunicação como:
+                Consultor em tecnologia e inteligência artificial com foco em diversidade e inclusão,
+                professor na FIAP, publicitário e LinkedIn Creator. Reconhecido entre os{" "}
+                <span className="font-semibold text-gray-800">Top 150 Profissionais LGBTI+</span>{" "}
+                pela Maratona do Orgulho. Mestrando em Ciência da Computação na USP, atuo gerando
+                impacto através da promoção de eventos, formação de comunidades e criação de
+                conteúdo sobre tecnologia, IA e representatividade, como:
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature, index) => (

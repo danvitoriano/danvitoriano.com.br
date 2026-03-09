@@ -32,6 +32,27 @@ const eventsSchema = {
       "position": 1,
       "item": {
         "@type": "Event",
+        "name": "Woman & Queer Tech",
+        "startDate": "2026-03-19",
+        "endDate": "2026-03-19",
+        "location": { "@type": "Place", "name": "São Paulo, SP" },
+        "url": "https://www.orgulhotech.com.br/",
+        "description": "Encontro gratuito que nasce da união de Orgulho Tech, Devs 40+ e Elas Programam. Espaço seguro e acolhedor para trocas sobre carreira, diversidade e pertencimento na tecnologia.",
+        "isAccessibleForFree": true,
+        "organizer": [
+          { "@type": "Organization", "name": "Orgulho Tech", "url": "https://www.orgulhotech.com.br" },
+          { "@type": "Organization", "name": "Devs 40+", "url": "https://www.devs40mais.com.br" },
+          { "@type": "Organization", "name": "Elas Programam", "url": "https://www.elasprogramam.com.br" }
+        ],
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Event",
         "name": "Smart City Expo Curitiba",
         "startDate": "2026-03-18",
         "endDate": "2026-03-18",
