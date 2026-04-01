@@ -7,31 +7,31 @@ export default function HomeHighlights() {
         <div>
           <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Próximo Evento</h2>
           <a
-            href="https://www.meetup.com/pt-br/orgulhotech/events/313611019/"
+            href="https://www.wtm.com/latin-america/"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex flex-col sm:flex-row overflow-hidden rounded-2xl ring-1 ring-gray-200 bg-white hover:ring-purple-300 hover:shadow-lg transition-all duration-300"
+            className="group flex flex-col sm:flex-row overflow-hidden rounded-2xl ring-1 ring-gray-200 bg-white hover:ring-sky-400 hover:shadow-lg transition-all duration-300"
           >
-            <div className="bg-gradient-to-b from-purple-600 to-fuchsia-600 w-full sm:w-1.5 flex-shrink-0" />
+            <div className="bg-gradient-to-b from-sky-600 to-indigo-600 w-full sm:w-1.5 flex-shrink-0" />
             <div className="flex flex-1 flex-col sm:flex-row items-start sm:items-center justify-between p-6 gap-4">
               <div>
                 <div className="flex flex-wrap items-center gap-2 mb-2">
-                  <span className="text-xs font-medium text-purple-700 bg-purple-100 px-2 py-0.5 rounded-full">19 mar 2026</span>
-                  <span className="text-xs font-medium text-green-700 bg-green-100 px-2 py-0.5 rounded-full">Gratuito</span>
-                  <span className="text-xs font-medium text-gray-600 bg-gray-100 px-2 py-0.5 rounded-full">Presencial + Online</span>
+                  <span className="text-xs font-medium text-sky-800 bg-sky-100 px-2 py-0.5 rounded-full">14 a 16 abr 2026</span>
+                  <span className="text-xs font-medium text-gray-700 bg-gray-100 px-2 py-0.5 rounded-full">Feira B2B</span>
+                  <span className="text-xs font-medium text-gray-600 bg-gray-100 px-2 py-0.5 rounded-full">Presencial</span>
                 </div>
-                <p className="text-lg font-bold text-gray-900 group-hover:text-purple-800 transition-colors">
-                  Woman &amp; Queer Tech
+                <p className="text-lg font-bold text-gray-900 group-hover:text-sky-800 transition-colors">
+                  WTM Latin America 2026
                 </p>
                 <p className="text-sm text-gray-500 mt-1">
-                  📍 Blip · Av. Brigadeiro Faria Lima, 4221 · Itaim Bibi, São Paulo, SP
+                  📍 Expo Center Norte · São Paulo, SP
                 </p>
                 <p className="text-sm text-gray-500 mt-1">
-                  Uma realização de <span className="font-medium text-gray-700">Orgulho Tech</span> · <span className="font-medium text-gray-700">Devs 40+</span> · <span className="font-medium text-gray-700">Elas Programam</span>
+                  Maior feira B2B de turismo da América Latina — networking, negócios e tendências do setor.
                 </p>
               </div>
-              <span className="flex-shrink-0 rounded-md bg-purple-700 px-5 py-2.5 text-sm font-semibold text-white group-hover:bg-purple-800 transition-colors">
-                Inscreva-se Grátis →
+              <span className="flex-shrink-0 rounded-md bg-sky-700 px-5 py-2.5 text-sm font-semibold text-white group-hover:bg-sky-800 transition-colors">
+                Site oficial →
               </span>
             </div>
           </a>
