@@ -32,36 +32,6 @@ const eventsSchema = {
       "position": 1,
       "item": {
         "@type": "Event",
-        "name": "Smart City Expo Curitiba",
-        "startDate": "2026-03-18",
-        "endDate": "2026-03-18",
-        "location": { "@type": "Place", "name": "Curitiba, PR" },
-        "url": "https://www.smartcityexpocuritiba.com.br/",
-        "description": "Evento focado em cidades inteligentes, urbanismo, governança e inteligência artificial.",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@type": "Event",
-        "name": "BioTECH Fair",
-        "startDate": "2026-03-18",
-        "endDate": "2026-03-20",
-        "location": { "@type": "Place", "name": "Porto Alegre, RS" },
-        "url": "https://www.biotechfair.com.br/",
-        "description": "Feira focada em inovação ambiental, energias limpas e tecnologias sustentáveis.",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@type": "Event",
         "name": "WTM Latin America 2026",
         "startDate": "2026-04-14",
         "endDate": "2026-04-16",
@@ -74,7 +44,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 2,
       "item": {
         "@type": "Event",
         "name": "VTEX Day",
@@ -89,7 +59,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 3,
       "item": {
         "@type": "Event",
         "name": "Web Summit Rio 2026",
@@ -104,7 +74,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 4,
       "item": {
         "@type": "Event",
         "name": "Minas Summit 2026",
@@ -119,7 +89,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 5,
       "item": {
         "@type": "Event",
         "name": "Startup Summit",
@@ -134,7 +104,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 6,
       "item": {
         "@type": "Event",
         "name": "ABAV Expo",
@@ -149,7 +119,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 7,
       "item": {
         "@type": "Event",
         "name": "Futurecom 2026",

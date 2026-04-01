@@ -26,30 +26,6 @@ export default function List() {
 
   const upcomingEvents: Event[] = [
     {
-      id: 1,
-      title: "Smart City Expo Curitiba",
-      date: "18 de março de 2026",
-      location: "Curitiba, PR",
-      description: "Evento focado em cidades inteligentes, urbanismo, governança e inteligência artificial. Discussões sobre tecnologias que transformam a gestão urbana e a qualidade de vida nas cidades.",
-      status: "Inscrições abertas",
-      link: {
-        url: "https://www.smartcityexpocuritiba.com.br/",
-        text: "smartcityexpocuritiba.com.br"
-      }
-    },
-    {
-      id: 2,
-      title: "BioTECH Fair",
-      date: "18 a 20 de março de 2026",
-      location: "Porto Alegre, RS",
-      description: "Feira focada em inovação ambiental, energias limpas e tecnologias sustentáveis. Reunindo empresas, startups e especialistas em biotecnologia e soluções verdes para o futuro.",
-      status: "Evento presencial",
-      link: {
-        url: "https://www.biotechfair.com.br/",
-        text: "biotechfair.com.br"
-      }
-    },
-    {
       id: 3,
       title: "WTM Latin America 2026",
       date: "14 a 16 de abril de 2026",
@@ -138,6 +114,18 @@ export default function List() {
 
   const pastEvents: Event[] = [
     {
+      id: 27,
+      title: "BioTECH Fair",
+      date: "18 a 20 de março de 2026",
+      location: "Porto Alegre, RS",
+      description: "Feira focada em inovação ambiental, energias limpas e tecnologias sustentáveis. Reunindo empresas, startups e especialistas em biotecnologia e soluções verdes para o futuro.",
+      status: null,
+      link: {
+        url: "https://www.biotechfair.com.br/",
+        text: "biotechfair.com.br"
+      }
+    },
+    {
       id: 20,
       title: "Woman & Queer Tech",
       date: "19 de março de 2026",
@@ -147,6 +135,18 @@ export default function List() {
       link: {
         url: "https://www.meetup.com/pt-br/orgulhotech/events/313611019/",
         text: "meetup.com/orgulhotech"
+      }
+    },
+    {
+      id: 28,
+      title: "Smart City Expo Curitiba",
+      date: "18 de março de 2026",
+      location: "Curitiba, PR",
+      description: "Evento focado em cidades inteligentes, urbanismo, governança e inteligência artificial. Discussões sobre tecnologias que transformam a gestão urbana e a qualidade de vida nas cidades.",
+      status: null,
+      link: {
+        url: "https://www.smartcityexpocuritiba.com.br/",
+        text: "smartcityexpocuritiba.com.br"
       }
     },
     {
@@ -268,7 +268,7 @@ export default function List() {
       }
     },
     {
-      id: 20,
+      id: 270,
       title: "User Conference Brasil 2024",
       date: "7 e 8 de agosto de 2024",
       description: "Evento da ManageEngine para usuários de seus produtos, com foco em gerenciamento de TI e infraestrutura.",
