@@ -50,6 +50,30 @@ export default function List() {
       }
     },
     {
+      id: 31,
+      title: "TDC Summit IA 2026 · São Paulo",
+      date: "23 e 24 de abril de 2026",
+      location: "Distrito Anhembi — Av. Olavo Fontoura, 1209, Santana, São Paulo, SP",
+      description: "The Developer's Conference (TDC): Summit com foco em inteligência artificial aplicada — palestras, painéis, workshops, mentorias e networking. Formato presencial e digital, com trilhas de engenharia de IA, arquitetura, agentes autônomos, governança e FinOps.",
+      status: "Presencial + digital",
+      link: {
+        url: "https://www.thedevelopersconference.com.br/tdc/2026/summit-sao-paulo/",
+        text: "thedevelopersconference.com.br"
+      }
+    },
+    {
+      id: 30,
+      title: "APIX 2026 · Sensedia",
+      date: "21 de maio de 2026",
+      location: "WTC Events Center — São Paulo, SP",
+      description: "11ª edição do principal evento da Sensedia sobre APIs e integrações. Conteúdo sobre APIs e integrações, agentic AI, governança e segurança de APIs, inovação aberta e estratégia de negócios — em formato presencial.",
+      status: "Evento presencial",
+      link: {
+        url: "https://www.sensedia.com.br/apix",
+        text: "sensedia.com.br/apix"
+      }
+    },
+    {
       id: 5,
       title: "Web Summit Rio 2026",
       date: "8 a 11 de junho de 2026",

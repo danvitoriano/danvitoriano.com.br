@@ -62,6 +62,36 @@ const eventsSchema = {
       "position": 3,
       "item": {
         "@type": "Event",
+        "name": "TDC Summit IA 2026 · São Paulo",
+        "startDate": "2026-04-23",
+        "endDate": "2026-04-24",
+        "location": { "@type": "Place", "name": "Distrito Anhembi, São Paulo, SP" },
+        "url": "https://www.thedevelopersconference.com.br/tdc/2026/summit-sao-paulo/",
+        "description": "The Developer's Conference — Summit de IA com palestras, workshops e networking.",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Event",
+        "name": "APIX 2026 · Sensedia",
+        "startDate": "2026-05-21",
+        "endDate": "2026-05-21",
+        "location": { "@type": "Place", "name": "WTC Events Center, São Paulo, SP" },
+        "url": "https://www.sensedia.com.br/apix",
+        "description": "Evento da Sensedia sobre APIs, integrações, IA e transformação digital.",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Event",
         "name": "Web Summit Rio 2026",
         "startDate": "2026-06-08",
         "endDate": "2026-06-11",
@@ -74,7 +104,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 6,
       "item": {
         "@type": "Event",
         "name": "Minas Summit 2026",
@@ -89,7 +119,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 7,
       "item": {
         "@type": "Event",
         "name": "Startup Summit",
@@ -104,7 +134,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 8,
       "item": {
         "@type": "Event",
         "name": "ABAV Expo",
@@ -119,7 +149,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 9,
       "item": {
         "@type": "Event",
         "name": "Futurecom 2026",
