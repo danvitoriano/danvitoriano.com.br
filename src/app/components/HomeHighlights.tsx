@@ -37,6 +37,54 @@ export default function HomeHighlights() {
           </a>
         </div>
 
+        {/* Orgulho Tech Conf 2026 */}
+        <div>
+          <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Orgulho Tech — em São Paulo</h2>
+          <div className="overflow-hidden rounded-2xl ring-1 ring-purple-200 bg-gradient-to-br from-purple-50 via-white to-rose-50 p-6 sm:p-8">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
+              <div className="max-w-2xl">
+                <div className="flex flex-wrap items-center gap-2 mb-3">
+                  <span className="text-xs font-medium text-purple-800 bg-purple-100 px-2 py-0.5 rounded-full">
+                    3 jun 2026 · qua · à noite
+                  </span>
+                  <span className="text-xs font-medium text-rose-800 bg-rose-100 px-2 py-0.5 rounded-full">
+                    Véspera da Parada LGBT+ SP
+                  </span>
+                  <span className="text-xs font-medium text-gray-600 bg-gray-100 px-2 py-0.5 rounded-full">
+                    Local a definir
+                  </span>
+                </div>
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900">
+                  Orgulho Tech Conf — edição 2026
+                </h3>
+                <p className="mt-3 text-sm sm:text-base text-gray-700 leading-relaxed">
+                  Na quarta à noite anterior à{" "}
+                  <span className="font-medium text-gray-900">Parada do Orgulho LGBT+ em São Paulo</span>{" "}
+                  (domingo, 7 de junho de 2026), a conferência volta para celebrar tecnologia, representatividade e comunidade. Endereço em definição;{" "}
+                  <span className="font-medium text-gray-900">venda de ingressos</span> e{" "}
+                  <span className="font-medium text-gray-900">patrocínio</span> abrem em breve.
+                </p>
+              </div>
+              <div className="flex flex-col gap-3 shrink-0 sm:pt-1">
+                <a
+                  href="https://www.orgulhotech.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex justify-center rounded-lg bg-purple-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-800 transition-colors"
+                >
+                  Orgulho Tech →
+                </a>
+                <a
+                  href="/eventos"
+                  className="inline-flex justify-center rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-purple-900 ring-1 ring-purple-200 hover:ring-purple-400 transition-colors"
+                >
+                  Ver na agenda de eventos
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Woman & Queer Tech — retrospectiva */}
         <div className="rounded-2xl bg-gradient-to-br from-purple-50 to-fuchsia-50 ring-1 ring-purple-200/60 px-6 py-8 sm:px-8 sm:py-10">
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">

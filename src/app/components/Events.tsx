@@ -74,6 +74,18 @@ export default function List() {
       }
     },
     {
+      id: 32,
+      title: "Orgulho Tech Conf 2026",
+      date: "3 de junho de 2026 · quarta-feira à noite (véspera da Parada LGBT+ de SP)",
+      location: "São Paulo, SP · local a definir",
+      description: "Conferência da Orgulho Tech na semana da Parada do Orgulho LGBT+ de São Paulo: conteúdo, comunidade e visibilidade para profissionais LGBTQIA+ e aliadas na tecnologia. Local em definição; venda de ingressos e oportunidades de patrocínio em breve.",
+      status: "Ingressos e patrocínio em breve",
+      link: {
+        url: "https://www.orgulhotech.com.br/",
+        text: "orgulhotech.com.br"
+      }
+    },
+    {
       id: 5,
       title: "Web Summit Rio 2026",
       date: "8 a 11 de junho de 2026",

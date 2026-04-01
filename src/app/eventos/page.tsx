@@ -92,6 +92,21 @@ const eventsSchema = {
       "position": 5,
       "item": {
         "@type": "Event",
+        "name": "Orgulho Tech Conf 2026",
+        "startDate": "2026-06-03T19:00:00-03:00",
+        "endDate": "2026-06-03T23:59:00-03:00",
+        "location": { "@type": "Place", "name": "São Paulo, SP" },
+        "url": "https://www.orgulhotech.com.br/",
+        "description": "Conferência Orgulho Tech na véspera da Parada do Orgulho LGBT+ de São Paulo. Local a definir; ingressos e patrocínio em breve.",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Event",
         "name": "Web Summit Rio 2026",
         "startDate": "2026-06-08",
         "endDate": "2026-06-11",
@@ -104,7 +119,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "item": {
         "@type": "Event",
         "name": "Minas Summit 2026",
@@ -119,7 +134,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 8,
       "item": {
         "@type": "Event",
         "name": "Startup Summit",
@@ -134,7 +149,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 9,
       "item": {
         "@type": "Event",
         "name": "ABAV Expo",
@@ -149,7 +164,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 10,
       "item": {
         "@type": "Event",
         "name": "Futurecom 2026",
