@@ -20,8 +20,8 @@ export default function Hero() {
           {/* Badge com animação de entrada */}
           <div className="hidden sm:mb-8 sm:flex sm:justify-center animate-fade-in-down">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-purple-400/40 transition-all duration-300 hover:scale-105 hover:shadow-lg group">
-              Em destaque · Woman &amp; Queer Tech 2º meetup · 25 abr · Copilot &amp; IA · SP{" "}
-              <a href="/eventos" className="font-semibold text-purple-700">
+              Em destaque · Woman &amp; Queer Tech 2º meetup · inscrições abertas · 25 abr · SP{" "}
+              <a href="/eventos#evento-upcoming-33" className="font-semibold text-purple-700">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Ver detalhes <span aria-hidden="true" className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
               </a>

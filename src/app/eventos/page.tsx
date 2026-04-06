@@ -80,9 +80,19 @@ const eventsSchema = {
         "name": "Woman & Queer Tech — 2º meetup",
         "startDate": "2026-04-25T09:30:00-03:00",
         "endDate": "2026-04-25T13:00:00-03:00",
-        "location": { "@type": "Place", "name": "São Paulo, SP (próximo ao metrô, local a divulgar)" },
-        "url": "https://www.orgulhotech.com.br/",
-        "description": "Meetup com palestras sobre GitHub Copilot e IA; coffees na entrada e saída; apoio Bradesco. Cadastro em breve.",
+        "location": {
+          "@type": "Place",
+          "name": "Universidade Bradesco (UniBrad)",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Marquês de São Vicente, 77",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "addressCountry": "BR"
+          }
+        },
+        "url": "https://link.orgulhotech.com.br/meetup",
+        "description": "Meetup na UniBrad (Barra Funda, metrô ao lado), até 120 pessoas. Palestras sobre GitHub Copilot e IA; coffees na entrada e saída; apoio Bradesco. Inscrições abertas via Luma.",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
       }

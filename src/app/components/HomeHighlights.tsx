@@ -18,7 +18,7 @@ export default function HomeHighlights() {
                     Copilot &amp; IA
                   </span>
                   <span className="text-xs font-medium text-gray-700 bg-gray-100 px-2 py-0.5 rounded-full">
-                    Próximo ao metrô · local em breve
+                    UniBrad · Barra Funda · até 120 pessoas
                   </span>
                 </div>
                 <p className="text-xl sm:text-2xl font-bold text-gray-900">
@@ -36,20 +36,21 @@ export default function HomeHighlights() {
                   <span className="text-gray-800">Apoio Bradesco.</span>
                 </p>
                 <p className="text-sm text-gray-600 mt-3">
-                  Endereço e link de cadastro serão divulgados em breve — fique de olho nas redes e no site da Orgulho Tech.
+                  📍 Universidade Bradesco (UniBrad), Av. Marquês de São Vicente, 77, Barra Funda — ao lado do metrô Barra Funda. Capacidade para até 120 pessoas.{" "}
+                  <strong className="font-medium text-gray-800">Inscrições abertas</strong> — confirmação sujeita à aprovação dos anfitriões na plataforma Luma.
                 </p>
               </div>
               <div className="flex flex-col gap-3 shrink-0 lg:pt-2">
                 <a
-                  href="https://www.orgulhotech.com.br/"
+                  href="https://link.orgulhotech.com.br/meetup"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex justify-center rounded-lg bg-purple-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-800 transition-colors"
                 >
-                  Orgulho Tech — novidades em breve
+                  Inscreva-se →
                 </a>
                 <a
-                  href="/eventos"
+                  href="/eventos#evento-upcoming-33"
                   className="inline-flex justify-center rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-purple-900 ring-1 ring-purple-200 hover:ring-purple-400 transition-colors"
                 >
                   Ver na agenda completa

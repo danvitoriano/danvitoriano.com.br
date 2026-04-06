@@ -73,12 +73,12 @@ export default function List() {
       id: 33,
       title: "Woman & Queer Tech — 2º meetup",
       date: "25 de abril de 2026 · 9h30 às 13h",
-      location: "São Paulo, SP · local próximo ao metrô (a divulgar)",
-      description: "Segundo encontro Woman & Queer Tech, com palestras sobre GitHub Copilot e inteligência artificial. Duas pausas para café — uma na entrada e outra na saída — para networking. Realização: comunidades Orgulho Tech, Devs 40+ e Elas Programam, com Dan Vitoriano, Silvia Coelho e Roberson Miguel (biosbug); apoio Bradesco. Link de cadastro e endereço em breve.",
-      status: "Cadastro e local em breve",
+      location: "Universidade Bradesco (UniBrad) · Av. Marquês de São Vicente, 77, Barra Funda — ao lado da estação Barra Funda (metrô)",
+      description: "Segundo encontro Woman & Queer Tech, com palestras sobre GitHub Copilot e inteligência artificial. Espaço com capacidade para até 120 pessoas. Duas pausas para café — uma na entrada e outra na saída — para networking. Realização: comunidades Orgulho Tech, Devs 40+ e Elas Programam, com Dan Vitoriano, Silvia Coelho e Roberson Miguel (biosbug); apoio Bradesco.",
+      status: "Inscrições abertas",
       link: {
-        url: "https://www.orgulhotech.com.br/",
-        text: "orgulhotech.com.br — cadastro em breve"
+        url: "https://link.orgulhotech.com.br/meetup",
+        text: "Inscreva-se no evento (Luma)"
       }
     },
     {
