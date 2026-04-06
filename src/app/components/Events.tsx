@@ -62,6 +62,18 @@ export default function List() {
       }
     },
     {
+      id: 33,
+      title: "Woman & Queer Tech — 2º meetup",
+      date: "25 de abril de 2026 · 9h30 às 13h",
+      location: "São Paulo, SP · local próximo ao metrô (a divulgar)",
+      description: "Segundo encontro Woman & Queer Tech, com palestras sobre GitHub Copilot e inteligência artificial. Duas pausas para café — uma na entrada e outra na saída — para networking. Realização: comunidades Orgulho Tech, Devs 40+ e Elas Programam, com Dan Vitoriano, Silvia Coelho e Roberson Miguel (biosbug); apoio Bradesco. Link de cadastro e endereço em breve.",
+      status: "Cadastro e local em breve",
+      link: {
+        url: "https://www.orgulhotech.com.br/",
+        text: "orgulhotech.com.br — cadastro em breve"
+      }
+    },
+    {
       id: 30,
       title: "APIX 2026 · Sensedia",
       date: "21 de maio de 2026",
@@ -163,7 +175,7 @@ export default function List() {
     },
     {
       id: 20,
-      title: "Woman & Queer Tech",
+      title: "Woman & Queer Tech — 1ª edição (meetup)",
       date: "19 de março de 2026",
       location: "Blip — Av. Brigadeiro Faria Lima, 4221, Itaim Bibi, São Paulo, SP",
       description: "Encontro gratuito que nasce da união de Orgulho Tech, Devs 40+ e Elas Programam. Um espaço seguro e acolhedor para trocas sobre carreira, tecnologia, diversidade, longevidade profissional e pertencimento — com painel de discussão, networking e coffee break. Presencial + transmissão online.",

@@ -19,11 +19,11 @@ export default function Hero() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           {/* Badge com animação de entrada */}
           <div className="hidden sm:mb-8 sm:flex sm:justify-center animate-fade-in-down">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-violet-400/40 transition-all duration-300 hover:scale-105 hover:shadow-lg group">
-              Em destaque · APIX 2026 · APIs &amp; integrações · 21 mai · SP{" "}
-              <a href="https://www.sensedia.com.br/apix" target="_blank" rel="noopener noreferrer" className="font-semibold text-violet-700">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-purple-400/40 transition-all duration-300 hover:scale-105 hover:shadow-lg group">
+              Em destaque · Woman &amp; Queer Tech 2º meetup · 25 abr · Copilot &amp; IA · SP{" "}
+              <a href="/eventos" className="font-semibold text-purple-700">
                 <span className="absolute inset-0" aria-hidden="true" />
-                Saiba mais <span aria-hidden="true" className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
+                Ver detalhes <span aria-hidden="true" className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
               </a>
             </div>
           </div>

@@ -77,6 +77,21 @@ const eventsSchema = {
       "position": 4,
       "item": {
         "@type": "Event",
+        "name": "Woman & Queer Tech — 2º meetup",
+        "startDate": "2026-04-25T09:30:00-03:00",
+        "endDate": "2026-04-25T13:00:00-03:00",
+        "location": { "@type": "Place", "name": "São Paulo, SP (próximo ao metrô, local a divulgar)" },
+        "url": "https://www.orgulhotech.com.br/",
+        "description": "Meetup com palestras sobre GitHub Copilot e IA; coffees na entrada e saída; apoio Bradesco. Cadastro em breve.",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Event",
         "name": "APIX 2026 · Sensedia",
         "startDate": "2026-05-21",
         "endDate": "2026-05-21",
@@ -89,7 +104,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 6,
       "item": {
         "@type": "Event",
         "name": "Orgulho Tech Conf 2026",
@@ -104,7 +119,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 7,
       "item": {
         "@type": "Event",
         "name": "Web Summit Rio 2026",
@@ -119,7 +134,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 8,
       "item": {
         "@type": "Event",
         "name": "Minas Summit 2026",
@@ -134,7 +149,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 9,
       "item": {
         "@type": "Event",
         "name": "Startup Summit",
@@ -149,7 +164,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 10,
       "item": {
         "@type": "Event",
         "name": "ABAV Expo",
@@ -164,7 +179,7 @@ const eventsSchema = {
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 11,
       "item": {
         "@type": "Event",
         "name": "Futurecom 2026",
