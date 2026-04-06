@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 interface Event {
   id: number;
@@ -21,8 +21,16 @@ interface Event {
 
 const PAST_EVENTS_PER_PAGE = 5;
 
+type EventSection = 'upcoming' | 'past';
+
+function eventAnchorId(section: EventSection, id: number): string {
+  return `evento-${section}-${id}`;
+}
+
 export default function List() {
   const [visiblePast, setVisiblePast] = useState(PAST_EVENTS_PER_PAGE);
+  const [copiedAnchorId, setCopiedAnchorId] = useState<string | null>(null);
+  const pendingScrollAnchorRef = useRef<string | null>(null);
 
   const upcomingEvents: Event[] = [
     {
@@ -401,8 +409,54 @@ export default function List() {
     }
   ];
 
-  const renderEvent = (event: Event, isPast: boolean = false) => {
-    const containerClass = isPast ? "px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0 opacity-60" : "px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0";
+  useLayoutEffect(() => {
+    const raw = window.location.hash.slice(1);
+    const m = raw.match(/^evento-(upcoming|past)-(\d+)$/);
+    if (!m) return;
+    const section = m[1] as EventSection;
+    const id = Number(m[2]);
+    const anchorId = eventAnchorId(section, id);
+
+    if (section === 'upcoming') {
+      if (!upcomingEvents.some(e => e.id === id)) return;
+      pendingScrollAnchorRef.current = anchorId;
+      return;
+    }
+
+    const idx = pastEvents.findIndex(e => e.id === id);
+    if (idx < 0) return;
+    pendingScrollAnchorRef.current = anchorId;
+    setVisiblePast(v => Math.max(v, idx + 1));
+  }, []);
+
+  useEffect(() => {
+    const anchorId = pendingScrollAnchorRef.current;
+    if (!anchorId) return;
+    const el = document.getElementById(anchorId);
+    if (!el) return;
+    pendingScrollAnchorRef.current = null;
+    requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }, [visiblePast]);
+
+  const copyEventLink = async (anchorId: string) => {
+    const url = `${window.location.origin}${window.location.pathname}#${anchorId}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopiedAnchorId(anchorId);
+      window.setTimeout(() => setCopiedAnchorId(null), 2000);
+    } catch {
+      window.prompt('Copie o link:', url);
+    }
+  };
+
+  const renderEvent = (event: Event, section: EventSection) => {
+    const isPast = section === 'past';
+    const anchorId = eventAnchorId(section, event.id);
+    const containerClass = isPast
+      ? 'px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0 opacity-60 scroll-mt-24'
+      : 'px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0 scroll-mt-24';
     const titleClass = isPast ? "text-sm font-medium leading-6 text-gray-500" : "text-sm font-medium leading-6 text-gray-900";
     const contentClass = isPast ? "mt-1 text-sm leading-6 text-gray-500 sm:col-span-2 sm:mt-0" : "mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0";
     const descriptionClass = isPast ? "text-gray-400" : "text-gray-600";
@@ -410,13 +464,22 @@ export default function List() {
     const internalClass = isPast ? "text-gray-400" : "text-gray-500";
 
     return (
-      <div key={event.id} className={containerClass}>
-        <dt className={titleClass}>
-          {event.title}
+      <div key={`${section}-${event.id}`} id={anchorId} className={containerClass}>
+        <dt className={`${titleClass} flex flex-wrap items-baseline gap-x-2 gap-y-1`}>
+          <span className="min-w-0">{event.title}</span>
+          <button
+            type="button"
+            className="shrink-0 text-base leading-none hover:opacity-70 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded"
+            aria-label={`Copiar link direto para o evento: ${event.title}`}
+            title={copiedAnchorId === anchorId ? 'Link copiado!' : 'Copiar link deste evento'}
+            onClick={() => copyEventLink(anchorId)}
+          >
+            🔗
+          </button>
           {event.isInternal && (
             <>
               <br />
-              <small className={internalClass}>Evento Interno</small>
+              <small className={`${internalClass} basis-full`}>Evento Interno</small>
             </>
           )}
         </dt>
@@ -514,6 +577,9 @@ export default function List() {
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <p className="sr-only" aria-live="polite">
+            {copiedAnchorId ? 'Link do evento copiado para a área de transferência.' : ''}
+          </p>
           <dl className="divide-y divide-gray-100">
             {/* Próximos Eventos */}
             <div className="mb-8">
@@ -521,7 +587,7 @@ export default function List() {
                 Próximos Eventos
               </h3>
               <div className="space-y-6">
-                {upcomingEvents.map(event => renderEvent(event, false))}
+                {upcomingEvents.map(event => renderEvent(event, 'upcoming'))}
               </div>
             </div>
 
@@ -531,7 +597,7 @@ export default function List() {
                 Eventos Passados
               </h3>
               <div className="space-y-6">
-                {pastEvents.slice(0, visiblePast).map(event => renderEvent(event, true))}
+                {pastEvents.slice(0, visiblePast).map(event => renderEvent(event, 'past'))}
               </div>
 
               {visiblePast < pastEvents.length && (
