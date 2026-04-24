@@ -7,6 +7,7 @@ interface Event {
   date: string;
   description: string | null;
   status: string | null;
+  badge?: string;
   location?: string;
   isInternal?: boolean;
   link: {
@@ -34,48 +35,13 @@ export default function List() {
 
   const upcomingEvents: Event[] = [
     {
-      id: 3,
-      title: "WTM Latin America 2026",
-      date: "14 a 16 de abril de 2026",
-      location: "Expo Center Norte - São Paulo/SP",
-      description: "Maior feira B2B de turismo da América Latina. Networking, negócios internacionais e tendências do setor de turismo e hospitalidade.",
-      status: "Feira de negócios",
-      link: {
-        url: "https://www.wtm.com/latin-america/",
-        text: "wtm.com/latin-america"
-      }
-    },
-    {
-      id: 4,
-      title: "VTEX Day",
-      date: "16 a 17 de abril de 2026",
-      location: "São Paulo, SP",
-      description: "Evento anual da VTEX reunindo líderes de e-commerce, varejo digital e tecnologia. Palestras sobre inovação, cases de sucesso e o futuro do comércio eletrônico.",
-      status: "Evento presencial e online",
-      link: {
-        url: "https://vtex.com/br-pt/vtexday/",
-        text: "vtex.com/vtexday"
-      }
-    },
-    {
-      id: 31,
-      title: "TDC Summit IA 2026 · São Paulo",
-      date: "23 e 24 de abril de 2026",
-      location: "Distrito Anhembi — Av. Olavo Fontoura, 1209, Santana, São Paulo, SP",
-      description: "The Developer's Conference (TDC): Summit com foco em inteligência artificial aplicada — palestras, painéis, workshops, mentorias e networking. Formato presencial e digital, com trilhas de engenharia de IA, arquitetura, agentes autônomos, governança e FinOps.",
-      status: "Presencial + digital",
-      link: {
-        url: "https://www.thedevelopersconference.com.br/tdc/2026/summit-sao-paulo/",
-        text: "thedevelopersconference.com.br"
-      }
-    },
-    {
       id: 33,
       title: "Woman & Queer Tech — 2º meetup",
-      date: "25 de abril de 2026 · 9h30 às 13h",
+      date: "9 de maio de 2026 · 9h30 às 13h",
       location: "Universidade Bradesco (UniBrad) · Av. Marquês de São Vicente, 77, Barra Funda — ao lado da estação Barra Funda (metrô)",
       description: "Segundo encontro Woman & Queer Tech, com palestras sobre GitHub Copilot e inteligência artificial. Espaço com capacidade para até 120 pessoas. Duas pausas para café — uma na entrada e outra na saída — para networking. Realização: comunidades Orgulho Tech, Devs 40+ e Elas Programam, com Dan Vitoriano, Silvia Coelho e Roberson Miguel (biosbug); apoio Bradesco.",
-      status: "Inscrições abertas",
+      status: "Inscrições abertas · evento reagendado",
+      badge: "Reagendado para 09/05",
       link: {
         url: "https://link.orgulhotech.com.br/meetup",
         text: "Inscreva-se no evento (Luma)"
@@ -169,6 +135,42 @@ export default function List() {
   ];
 
   const pastEvents: Event[] = [
+    {
+      id: 31,
+      title: "TDC Summit IA 2026 · São Paulo",
+      date: "23 e 24 de abril de 2026",
+      location: "Distrito Anhembi — Av. Olavo Fontoura, 1209, Santana, São Paulo, SP",
+      description: "The Developer's Conference (TDC): Summit com foco em inteligência artificial aplicada — palestras, painéis, workshops, mentorias e networking. Formato presencial e digital, com trilhas de engenharia de IA, arquitetura, agentes autônomos, governança e FinOps.",
+      status: null,
+      link: {
+        url: "https://www.thedevelopersconference.com.br/tdc/2026/summit-sao-paulo/",
+        text: "thedevelopersconference.com.br"
+      }
+    },
+    {
+      id: 4,
+      title: "VTEX Day",
+      date: "16 a 17 de abril de 2026",
+      location: "São Paulo, SP",
+      description: "Evento anual da VTEX reunindo líderes de e-commerce, varejo digital e tecnologia. Palestras sobre inovação, cases de sucesso e o futuro do comércio eletrônico.",
+      status: null,
+      link: {
+        url: "https://vtex.com/br-pt/vtexday/",
+        text: "vtex.com/vtexday"
+      }
+    },
+    {
+      id: 3,
+      title: "WTM Latin America 2026",
+      date: "14 a 16 de abril de 2026",
+      location: "Expo Center Norte - São Paulo/SP",
+      description: "Maior feira B2B de turismo da América Latina. Networking, negócios internacionais e tendências do setor de turismo e hospitalidade.",
+      status: null,
+      link: {
+        url: "https://www.wtm.com/latin-america/",
+        text: "wtm.com/latin-america"
+      }
+    },
     {
       id: 27,
       title: "BioTECH Fair",
@@ -467,6 +469,11 @@ export default function List() {
       <div key={`${section}-${event.id}`} id={anchorId} className={containerClass}>
         <dt className={`${titleClass} flex flex-wrap items-baseline gap-x-2 gap-y-1`}>
           <span className="min-w-0">{event.title}</span>
+          {event.badge && (
+            <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-800 ring-1 ring-amber-200">
+              {event.badge}
+            </span>
+          )}
           <button
             type="button"
             className="shrink-0 text-base leading-none hover:opacity-70 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded"

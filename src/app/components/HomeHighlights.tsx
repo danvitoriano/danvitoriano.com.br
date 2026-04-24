@@ -12,7 +12,10 @@ export default function HomeHighlights() {
               <div className="max-w-3xl">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
                   <span className="text-xs font-medium text-purple-900 bg-purple-100 px-2 py-0.5 rounded-full">
-                    25 abr 2026 · 9h30–13h
+                    9 mai 2026 · 9h30–13h
+                  </span>
+                  <span className="text-xs font-semibold text-amber-800 bg-amber-100 px-2 py-0.5 rounded-full ring-1 ring-amber-200">
+                    Reagendado para 09/05
                   </span>
                   <span className="text-xs font-medium text-fuchsia-900 bg-fuchsia-100 px-2 py-0.5 rounded-full">
                     Copilot &amp; IA

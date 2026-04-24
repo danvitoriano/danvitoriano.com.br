@@ -38,7 +38,7 @@ const eventsSchema = {
         "location": { "@type": "Place", "name": "Expo Center Norte, São Paulo, SP" },
         "url": "https://www.wtm.com/latin-america/",
         "description": "Maior feira B2B de turismo da América Latina.",
-        "eventStatus": "https://schema.org/EventScheduled",
+        "eventStatus": "https://schema.org/EventCompleted",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
       }
     },
@@ -53,7 +53,7 @@ const eventsSchema = {
         "location": { "@type": "Place", "name": "São Paulo, SP" },
         "url": "https://vtex.com/br-pt/vtexday/",
         "description": "Evento anual da VTEX reunindo líderes de e-commerce, varejo digital e tecnologia.",
-        "eventStatus": "https://schema.org/EventScheduled",
+        "eventStatus": "https://schema.org/EventCompleted",
         "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode"
       }
     },
@@ -68,7 +68,7 @@ const eventsSchema = {
         "location": { "@type": "Place", "name": "Distrito Anhembi, São Paulo, SP" },
         "url": "https://www.thedevelopersconference.com.br/tdc/2026/summit-sao-paulo/",
         "description": "The Developer's Conference — Summit de IA com palestras, workshops e networking.",
-        "eventStatus": "https://schema.org/EventScheduled",
+        "eventStatus": "https://schema.org/EventCompleted",
         "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode"
       }
     },
@@ -78,8 +78,8 @@ const eventsSchema = {
       "item": {
         "@type": "Event",
         "name": "Woman & Queer Tech — 2º meetup",
-        "startDate": "2026-04-25T09:30:00-03:00",
-        "endDate": "2026-04-25T13:00:00-03:00",
+        "startDate": "2026-05-09T09:30:00-03:00",
+        "endDate": "2026-05-09T13:00:00-03:00",
         "location": {
           "@type": "Place",
           "name": "Universidade Bradesco (UniBrad)",
