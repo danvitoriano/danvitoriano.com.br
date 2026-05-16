@@ -1,8 +1,14 @@
-import { ArrowPathIcon, CloudArrowUpIcon, ServerIcon, LockClosedIcon, DocumentArrowDownIcon, PaintBrushIcon } from '@heroicons/react/24/outline'
+import { ArrowPathIcon, CloudArrowUpIcon, ServerIcon, LockClosedIcon, DocumentArrowDownIcon, PaintBrushIcon, SparklesIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
 const features = [
-  
+      {
+        name: "Diferentia",
+        description:
+          "Startup de Agentic AI para o mercado financeiro: ensina times de fundos, gestoras e fintechs a criar e operar agentes de IA.",
+        icon: SparklesIcon,
+        url: "https://diferentia.com.br"
+      },
     {
         name: "Tech 40+",
         description:

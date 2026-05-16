@@ -4,10 +4,18 @@ import {
   CloudArrowUpIcon,
   LockClosedIcon,
   ServerIcon,
+  SparklesIcon,
 } from "@heroicons/react/20/solid";
 import { useEffect, useRef, useState } from "react";
 
 const features = [
+  {
+    name: "Diferentia",
+    description:
+      "Startup que ensina times do mercado financeiro a criar e operar agentes de IA — do diagnóstico à autonomia.",
+    icon: SparklesIcon,
+    href: "https://diferentia.com.br",
+  },
   {
     name: "Tech 40+",
     description:
@@ -88,7 +96,18 @@ export default function Feature({titulo}: any) {
                         className="absolute left-1 top-1 h-5 w-5 text-indigo-600 transition-transform duration-300 hover:rotate-12"
                         aria-hidden="true"
                       />
-                      {feature.name}
+                      {"href" in feature && feature.href ? (
+                        <a
+                          href={feature.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-teal-700 hover:text-teal-800 underline decoration-teal-200 underline-offset-2"
+                        >
+                          {feature.name}
+                        </a>
+                      ) : (
+                        feature.name
+                      )}
                     </dt>{" "}
                     <dd className="inline">{feature.description}</dd>
                   </div>

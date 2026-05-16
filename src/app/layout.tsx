@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Dan Vitoriano | Consultoria em Tecnologia, IA e Diversidade",
   description: "Dan Vitoriano é consultor em tecnologia e inteligência artificial com foco em diversidade e inclusão. Criador de conteúdo tech, produtor de eventos e referência em representatividade LGBTQIA+ no mercado de tecnologia brasileiro.",
-  keywords: ["Dan Vitoriano", "consultoria em tecnologia", "inteligência artificial", "diversidade e inclusão", "diversidade na tecnologia", "inclusão LGBTQIA+", "tech creator", "produção de eventos tech", "conteúdo tech", "representatividade tecnologia", "comunidades tech", "Orgulho Tech", "Devs 40+"],
+  keywords: ["Dan Vitoriano", "consultoria em tecnologia", "inteligência artificial", "diversidade e inclusão", "diversidade na tecnologia", "inclusão LGBTQIA+", "tech creator", "produção de eventos tech", "conteúdo tech", "representatividade tecnologia", "comunidades tech", "Orgulho Tech", "Devs 40+", "Diferentia", "agentes de IA", "mercado financeiro"],
   openGraph: {
     title: "Dan Vitoriano | Consultoria em Tecnologia, IA e Diversidade",
     description: "Consultor em tecnologia e IA com foco em diversidade e inclusão. Criador de conteúdo tech e produtor de eventos. Referência em representatividade no mercado tech brasileiro.",

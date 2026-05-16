@@ -23,6 +23,11 @@ export default function Footer() {
                 Iniciativas
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <li className="mb-4">
+                  <a href="https://diferentia.com.br" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    Diferentia
+                  </a>
+                </li>
               <li className="mb-4">
                   <Link className="hover:underline" href="/iniciativas/ebooks">
                     Developer

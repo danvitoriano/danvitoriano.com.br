@@ -3,6 +3,60 @@ export default function HomeHighlights() {
     <div className="bg-gray-50 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 space-y-20">
 
+        {/* Diferentia — novo projeto */}
+        <div>
+          <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Novo projeto</h2>
+          <div className="overflow-hidden rounded-2xl ring-2 ring-teal-300/80 bg-white shadow-md">
+            <div className="bg-gradient-to-r from-slate-800 via-teal-700 to-emerald-600 h-1.5 w-full" />
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 p-6 sm:p-8">
+              <div className="max-w-3xl">
+                <div className="flex flex-wrap items-center gap-2 mb-3">
+                  <span className="text-xs font-semibold text-teal-900 bg-teal-100 px-2 py-0.5 rounded-full ring-1 ring-teal-200">
+                    Startup
+                  </span>
+                  <span className="text-xs font-medium text-slate-800 bg-slate-100 px-2 py-0.5 rounded-full">
+                    Mercado financeiro
+                  </span>
+                  <span className="text-xs font-medium text-emerald-900 bg-emerald-100 px-2 py-0.5 rounded-full">
+                    Agentic AI
+                  </span>
+                </div>
+                <p className="text-xl sm:text-2xl font-bold text-gray-900">
+                  Diferentia
+                </p>
+                <p className="text-sm sm:text-base text-gray-700 mt-3 leading-relaxed">
+                  Ensino times de{" "}
+                  <strong className="font-semibold text-gray-900">fundos, gestoras e fintechs</strong> a criar e operar{" "}
+                  <strong className="font-semibold text-gray-900">agentes de IA</strong> no dia a dia — com metodologia
+                  proprietária do diagnóstico de maturidade à autonomia operacional, em casos reais do setor financeiro.
+                </p>
+                <p className="text-sm text-gray-600 mt-3">
+                  Capacitação prática, trilhas sob medida por perfil e comunidade exclusiva do mercado — sem treinamento
+                  genérico desconectado da mesa de trabalho.
+                </p>
+              </div>
+              <div className="flex flex-col gap-3 shrink-0 lg:pt-2">
+                <a
+                  href="https://diferentia.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex justify-center rounded-lg bg-teal-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-800 transition-colors"
+                >
+                  Conhecer a Diferentia →
+                </a>
+                <a
+                  href="https://diferentia.com.br#contato"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex justify-center rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-teal-900 ring-1 ring-teal-200 hover:ring-teal-400 transition-colors"
+                >
+                  Agendar diagnóstico gratuito
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Próximo Evento em destaque — Woman & Queer Tech 2º meetup */}
         <div>
           <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Próximo evento em destaque</h2>
@@ -178,10 +232,28 @@ export default function HomeHighlights() {
           </div>
         </div>
 
-        {/* Comunidades */}
+        {/* Comunidades & projetos */}
         <div>
-          <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Comunidades</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Comunidades &amp; projetos</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a
+              href="https://diferentia.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col rounded-2xl bg-white ring-1 ring-gray-200 p-6 hover:ring-teal-300 hover:shadow-lg transition-all duration-300"
+            >
+              <div className="text-3xl mb-3">🤖</div>
+              <h3 className="text-lg font-bold text-gray-900 group-hover:text-teal-700 transition-colors">
+                Diferentia
+              </h3>
+              <p className="text-sm text-gray-600 mt-2 flex-1">
+                Agentic AI para fundos, gestoras e fintechs: metodologia do diagnóstico à autonomia para times que operam com agentes de IA no dia a dia.
+              </p>
+              <span className="mt-4 text-sm font-semibold text-teal-600 inline-block group-hover:translate-x-1 transition-transform">
+                diferentia.com.br →
+              </span>
+            </a>
+
             <a
               href="https://www.orgulhotech.com.br/"
               target="_blank"
