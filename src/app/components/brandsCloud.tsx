@@ -50,7 +50,7 @@ export default function BrandsCloud() {
         >
           <img
             src="/images/marcas-publicidade.png"
-            alt="Logos das marcas parceiras: Mercado Livre, L'Oréal, Descomplica, Twilio, Alura, Insider, TCL, Locaweb, Woovi, ActiveCampaign, Leapmotor, Reply, Cielo, FIAP, The Developer's Conference"
+            alt="Logos das marcas parceiras: Mercado Livre, L'Oréal, Descomplica, Twilio, Insider, TCL, Locaweb, Woovi, ActiveCampaign, Leapmotor, Reply, Cielo, FIAP, The Developer's Conference"
             className="w-full rounded-xl shadow-lg transition-all duration-500 hover:shadow-2xl"
           />
         </div>

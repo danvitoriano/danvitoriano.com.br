@@ -67,15 +67,6 @@ export default function Footer() {
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://alura.tv/danvitoriano"
-                    target="_blank"
-                    className="hover:underline"
-                  >
-                    Alura
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
                     href="https://github.com/danvitoriano"
                     className="hover:underline "
                   >

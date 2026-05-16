@@ -1,4 +1,4 @@
-import { ArrowPathIcon, CloudArrowUpIcon, ServerIcon, LockClosedIcon, DocumentArrowDownIcon, PaintBrushIcon, SparklesIcon } from '@heroicons/react/24/outline'
+import { CloudArrowUpIcon, ServerIcon, LockClosedIcon, DocumentArrowDownIcon, PaintBrushIcon, SparklesIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
 const features = [
@@ -29,13 +29,6 @@ const features = [
           "1º canal de TV com conteúdo 24 horas sobre tecnologia e programação.",
         icon: ServerIcon,
         url: "https://techtelevision.com.br"
-      },
-      {
-        name: "Alura",
-        description:
-          "Estude com desconto na maior ecossistema de educação em tecnologia do Brasil.",
-        icon: ArrowPathIcon,
-        url: "https://alura.com.br/danvitoriano"
       },
       {
         name: "Cursos",

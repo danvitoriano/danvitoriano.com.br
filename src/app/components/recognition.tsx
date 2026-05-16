@@ -2,7 +2,6 @@
 
 import {
   TrophyIcon,
-  UserGroupIcon,
   ChatBubbleLeftRightIcon,
   RocketLaunchIcon,
 } from "@heroicons/react/24/outline";
@@ -15,13 +14,6 @@ const recognitions = [
       "Reconhecido como Top Voice em Desenvolvimento de Software, com mais de 31 mil seguidores e 3.000+ publicações.",
     icon: TrophyIcon,
     color: "bg-blue-600",
-  },
-  {
-    name: "Alura Influencer",
-    description:
-      "Membro do programa de influenciadores da Alura, promovendo educação em tecnologia acessível e de qualidade.",
-    icon: UserGroupIcon,
-    color: "bg-indigo-600",
   },
   {
     name: "Rocketseat Experts Club",

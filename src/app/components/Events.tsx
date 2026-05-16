@@ -251,32 +251,8 @@ export default function List() {
       description: "Conferência sobre Inteligência Artificial e suas aplicações no mercado brasileiro. Foco em inovação, ética e futuro da tecnologia.",
       status: null,
       link: {
-        url: "https://www.alura.com.br/",
-        text: "alura.com.br"
-      }
-    },
-    {
-      id: 14,
-      title: "Imersão Dados com Python - Alura",
-      date: "05 a 08 de agosto de 2025",
-      location: "100% Online",
-      description: "Aprenda Python do zero, crie dashboards interativos e acelere sua carreira em dados. Em 4 dias, você sai do zero em Python e cria um dashboard real. Evento gratuito com suporte de especialistas e certificado de participação.",
-      status: null,
-      link: {
-        url: "https://www.alura.com.br/",
-        text: "alura.com.br"
-      }
-    },
-    {
-      id: 15,
-      title: "FIAP + ALURA | Lives IA em 4 Dimensões",
-      date: "04 a 07 de agosto de 2025",
-      location: "YouTube - 19h30",
-      description: "Descubra como a Inteligência Artificial está revolucionando o mercado em 4 áreas estratégicas: DEV, BUSINESS, DATA e CYBER. Lives gratuitas com especialistas do mercado, aplicações práticas e estratégias reais adotadas por empresas líderes.",
-      status: null,
-      link: {
-        url: "https://www.fiap.com.br/",
-        text: "fiap.com.br"
+        url: "https://gdg.community.dev/events/details/google-gdg-sao-paulo-presents-gdg-sao-paulo-ia-conference-brasil-2025/",
+        text: "GDG São Paulo"
       }
     },
     {
@@ -360,14 +336,14 @@ export default function List() {
     },
     {
       id: 23,
-      title: "FIAP + Alura",
+      title: "Orgulho Tech na FIAP",
       date: "21 de junho de 2024",
       description: "A importância do letramento LGBTQIAPN+ como uma ferramenta fundamental para promover a compreensão, o respeito e a inclusão em todos os espaços e contextos.",
       status: null,
       isInternal: true,
       link: {
         url: "https://www.fiap.com.br/imprensa/dois-tercos-noticias-em-sao-paulo-evento-orgulho-tech-conf-celebra-a-diversidade-e-inclusao-lgbtqiapn-na-tecnologia-fiap/",
-        text: "FIAP + Alura e Orgulho Tech"
+        text: "FIAP e Orgulho Tech"
       }
     },
     {

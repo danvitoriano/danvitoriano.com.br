@@ -292,10 +292,10 @@ export default function HomeHighlights() {
           </div>
         </div>
 
-        {/* Conteúdo & Parceria */}
+        {/* Conteúdo */}
         <div>
-          <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Conteúdo &amp; Parceria</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Conteúdo</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <a
               href="https://danvitoriano.substack.com"
               target="_blank"
@@ -332,23 +332,6 @@ export default function HomeHighlights() {
               </span>
             </a>
 
-            <a
-              href="https://link.danvitoriano.com.br/alura"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex flex-col rounded-2xl bg-white ring-1 ring-gray-200 p-6 hover:ring-blue-300 hover:shadow-lg transition-all duration-300"
-            >
-              <div className="text-3xl mb-3">🎓</div>
-              <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
-                Parceria Alura
-              </h3>
-              <p className="text-sm text-gray-600 mt-2 flex-1">
-                Cursos de tecnologia e IA com desconto exclusivo. Aprenda Python, dados, programação e muito mais com a maior escola tech do Brasil.
-              </p>
-              <span className="mt-4 text-sm font-semibold text-blue-600 inline-block group-hover:translate-x-1 transition-transform">
-                Ver cursos →
-              </span>
-            </a>
           </div>
         </div>
 
