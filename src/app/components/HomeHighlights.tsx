@@ -57,7 +57,7 @@ export default function HomeHighlights() {
           </div>
         </div>
 
-        {/* Próximo Evento em destaque — Woman & Queer Tech 2º meetup */}
+        {/* Próximo Evento em destaque — Orgulho Tech Conf 2026 */}
         <div>
           <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Próximo evento em destaque</h2>
           <div className="overflow-hidden rounded-2xl ring-2 ring-purple-300/80 bg-white shadow-md">
@@ -66,48 +66,37 @@ export default function HomeHighlights() {
               <div className="max-w-3xl">
                 <div className="flex flex-wrap items-center gap-2 mb-3">
                   <span className="text-xs font-medium text-purple-900 bg-purple-100 px-2 py-0.5 rounded-full">
-                    9 mai 2026 · 9h30–13h
+                    Data a definir
                   </span>
-                  <span className="text-xs font-semibold text-amber-800 bg-amber-100 px-2 py-0.5 rounded-full ring-1 ring-amber-200">
-                    Reagendado para 09/05
-                  </span>
-                  <span className="text-xs font-medium text-fuchsia-900 bg-fuchsia-100 px-2 py-0.5 rounded-full">
-                    Copilot &amp; IA
+                  <span className="text-xs font-medium text-rose-800 bg-rose-100 px-2 py-0.5 rounded-full">
+                    Semana da Parada LGBT+ SP
                   </span>
                   <span className="text-xs font-medium text-gray-700 bg-gray-100 px-2 py-0.5 rounded-full">
-                    UniBrad · Barra Funda · até 120 pessoas
+                    São Paulo · local a definir
                   </span>
                 </div>
                 <p className="text-xl sm:text-2xl font-bold text-gray-900">
-                  Woman &amp; Queer Tech — 2º meetup
+                  Orgulho Tech Conf — edição 2026
                 </p>
                 <p className="text-sm sm:text-base text-gray-700 mt-3 leading-relaxed">
-                  Palestras sobre <strong className="font-semibold text-gray-900">GitHub Copilot</strong> e{" "}
-                  <strong className="font-semibold text-gray-900">inteligência artificial</strong>. Dois coffees: na entrada e na saída, para networking. Organizado pelas comunidades{" "}
-                  <strong className="font-medium text-gray-900">Orgulho Tech</strong>,{" "}
-                  <strong className="font-medium text-gray-900">Devs 40+</strong> e{" "}
-                  <strong className="font-medium text-gray-900">Elas Programam</strong>, com{" "}
-                  <strong className="font-medium text-gray-900">Dan Vitoriano</strong>,{" "}
-                  <strong className="font-medium text-gray-900">Silvia Coelho</strong> e{" "}
-                  <strong className="font-medium text-gray-900">Roberson Miguel (biosbug)</strong>.{" "}
-                  <span className="text-gray-800">Apoio Bradesco.</span>
-                </p>
-                <p className="text-sm text-gray-600 mt-3">
-                  📍 Universidade Bradesco (UniBrad), Av. Marquês de São Vicente, 77, Barra Funda — ao lado do metrô Barra Funda. Capacidade para até 120 pessoas.{" "}
-                  <strong className="font-medium text-gray-800">Inscrições abertas</strong> — confirmação sujeita à aprovação dos anfitriões na plataforma Luma.
+                  A conferência da <strong className="font-medium text-gray-900">Orgulho Tech</strong> volta para celebrar tecnologia, representatividade e comunidade LGBTQIA+ e aliadas no mercado tech — na semana da{" "}
+                  <strong className="font-medium text-gray-900">Parada do Orgulho LGBT+ em São Paulo</strong>.
+                  Data e endereço em definição;{" "}
+                  <strong className="font-medium text-gray-900">venda de ingressos</strong> e{" "}
+                  <strong className="font-medium text-gray-900">patrocínio</strong> abrem em breve.
                 </p>
               </div>
               <div className="flex flex-col gap-3 shrink-0 lg:pt-2">
                 <a
-                  href="https://link.orgulhotech.com.br/meetup"
+                  href="https://www.orgulhotech.com.br/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex justify-center rounded-lg bg-purple-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-800 transition-colors"
                 >
-                  Inscreva-se →
+                  Orgulho Tech →
                 </a>
                 <a
-                  href="/eventos#evento-upcoming-33"
+                  href="/eventos#evento-upcoming-32"
                   className="inline-flex justify-center rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-purple-900 ring-1 ring-purple-200 hover:ring-purple-400 transition-colors"
                 >
                   Ver na agenda completa
@@ -144,54 +133,6 @@ export default function HomeHighlights() {
           </a>
         </div>
 
-        {/* Orgulho Tech Conf 2026 */}
-        <div>
-          <h2 className="text-base font-semibold leading-7 text-indigo-600 mb-4">Orgulho Tech — em São Paulo</h2>
-          <div className="overflow-hidden rounded-2xl ring-1 ring-purple-200 bg-gradient-to-br from-purple-50 via-white to-rose-50 p-6 sm:p-8">
-            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
-              <div className="max-w-2xl">
-                <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="text-xs font-medium text-purple-800 bg-purple-100 px-2 py-0.5 rounded-full">
-                    3 jun 2026 · qua · à noite
-                  </span>
-                  <span className="text-xs font-medium text-rose-800 bg-rose-100 px-2 py-0.5 rounded-full">
-                    Véspera da Parada LGBT+ SP
-                  </span>
-                  <span className="text-xs font-medium text-gray-600 bg-gray-100 px-2 py-0.5 rounded-full">
-                    Local a definir
-                  </span>
-                </div>
-                <h3 className="text-lg sm:text-xl font-bold text-gray-900">
-                  Orgulho Tech Conf — edição 2026
-                </h3>
-                <p className="mt-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  Na quarta à noite anterior à{" "}
-                  <span className="font-medium text-gray-900">Parada do Orgulho LGBT+ em São Paulo</span>{" "}
-                  (domingo, 7 de junho de 2026), a conferência volta para celebrar tecnologia, representatividade e comunidade. Endereço em definição;{" "}
-                  <span className="font-medium text-gray-900">venda de ingressos</span> e{" "}
-                  <span className="font-medium text-gray-900">patrocínio</span> abrem em breve.
-                </p>
-              </div>
-              <div className="flex flex-col gap-3 shrink-0 sm:pt-1">
-                <a
-                  href="https://www.orgulhotech.com.br/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex justify-center rounded-lg bg-purple-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-800 transition-colors"
-                >
-                  Orgulho Tech →
-                </a>
-                <a
-                  href="/eventos"
-                  className="inline-flex justify-center rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-purple-900 ring-1 ring-purple-200 hover:ring-purple-400 transition-colors"
-                >
-                  Ver na agenda de eventos
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Woman & Queer Tech — retrospectiva */}
         <div className="rounded-2xl bg-gradient-to-br from-purple-50 to-fuchsia-50 ring-1 ring-purple-200/60 px-6 py-8 sm:px-8 sm:py-10">
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
@@ -200,14 +141,14 @@ export default function HomeHighlights() {
                 Recentes na comunidade
               </p>
               <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
-                Como foi a 1ª edição do Woman &amp; Queer Tech
+                Woman &amp; Queer Tech — duas edições em 2026
               </h2>
               <p className="mt-4 text-sm sm:text-base leading-relaxed text-gray-700">
-                Em março de 2026, a Blip recebeu o encontro que reuniu{" "}
+                Em março, a Blip recebeu a 1ª edição; em maio, a UniBrad sediou o 2º meetup — palestras sobre Copilot e IA, com coffees para networking. Em ambos,{" "}
                 <span className="font-medium text-gray-900">Orgulho Tech</span>,{" "}
                 <span className="font-medium text-gray-900">Devs 40+</span> e{" "}
-                <span className="font-medium text-gray-900">Elas Programam</span>
-                — painel, networking e coffee em um espaço pensado para carreira, tecnologia e pertencimento. Quem veio presencialmente ou acompanhou online ajudou a registrar mais um capítulo da nossa comunidade LGBTQIA+ e aliadas no tech.
+                <span className="font-medium text-gray-900">Elas Programam</span>{" "}
+                reuniram a comunidade LGBTQIA+ e aliadas em um espaço de carreira, tecnologia e pertencimento.
               </p>
               <p className="mt-3 text-sm text-gray-600">
                 Virada de página com gratidão a palestrantes, parceiros e a cada pessoa que participou.
@@ -215,12 +156,18 @@ export default function HomeHighlights() {
             </div>
             <div className="flex flex-col sm:flex-row lg:flex-col gap-3 shrink-0">
               <a
+                href="/eventos#evento-past-33"
+                className="inline-flex justify-center rounded-lg bg-purple-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-800 transition-colors"
+              >
+                2ª edição na agenda
+              </a>
+              <a
                 href="https://www.meetup.com/pt-br/orgulhotech/events/313611019/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex justify-center rounded-lg bg-purple-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-purple-800 transition-colors"
+                className="inline-flex justify-center rounded-lg bg-white px-4 py-2.5 text-sm font-semibold text-purple-800 ring-1 ring-purple-200 hover:ring-purple-300 transition-colors"
               >
-                Página do encontro no Meetup
+                1ª edição no Meetup
               </a>
               <a
                 href="/eventos"

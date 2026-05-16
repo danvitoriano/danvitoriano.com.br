@@ -35,16 +35,15 @@ export default function List() {
 
   const upcomingEvents: Event[] = [
     {
-      id: 33,
-      title: "Woman & Queer Tech — 2º meetup",
-      date: "9 de maio de 2026 · 9h30 às 13h",
-      location: "Universidade Bradesco (UniBrad) · Av. Marquês de São Vicente, 77, Barra Funda — ao lado da estação Barra Funda (metrô)",
-      description: "Segundo encontro Woman & Queer Tech, com palestras sobre GitHub Copilot e inteligência artificial. Espaço com capacidade para até 120 pessoas. Duas pausas para café — uma na entrada e outra na saída — para networking. Realização: comunidades Orgulho Tech, Devs 40+ e Elas Programam, com Dan Vitoriano, Silvia Coelho e Roberson Miguel (biosbug); apoio Bradesco.",
-      status: "Inscrições abertas · evento reagendado",
-      badge: "Reagendado para 09/05",
+      id: 32,
+      title: "Orgulho Tech Conf 2026",
+      date: "Data a definir",
+      location: "São Paulo, SP · local a definir",
+      description: "Conferência da Orgulho Tech na semana da Parada do Orgulho LGBT+ de São Paulo: conteúdo, comunidade e visibilidade para profissionais LGBTQIA+ e aliadas na tecnologia. Data e local em definição; venda de ingressos e oportunidades de patrocínio em breve.",
+      status: "Ingressos e patrocínio em breve",
       link: {
-        url: "https://link.orgulhotech.com.br/meetup",
-        text: "Inscreva-se no evento (Luma)"
+        url: "https://www.orgulhotech.com.br/",
+        text: "orgulhotech.com.br"
       }
     },
     {
@@ -57,18 +56,6 @@ export default function List() {
       link: {
         url: "https://www.sensedia.com.br/apix",
         text: "sensedia.com.br/apix"
-      }
-    },
-    {
-      id: 32,
-      title: "Orgulho Tech Conf 2026",
-      date: "3 de junho de 2026 · quarta-feira à noite (véspera da Parada LGBT+ de SP)",
-      location: "São Paulo, SP · local a definir",
-      description: "Conferência da Orgulho Tech na semana da Parada do Orgulho LGBT+ de São Paulo: conteúdo, comunidade e visibilidade para profissionais LGBTQIA+ e aliadas na tecnologia. Local em definição; venda de ingressos e oportunidades de patrocínio em breve.",
-      status: "Ingressos e patrocínio em breve",
-      link: {
-        url: "https://www.orgulhotech.com.br/",
-        text: "orgulhotech.com.br"
       }
     },
     {
@@ -135,6 +122,18 @@ export default function List() {
   ];
 
   const pastEvents: Event[] = [
+    {
+      id: 33,
+      title: "Woman & Queer Tech — 2º meetup",
+      date: "9 de maio de 2026 · 9h30 às 13h",
+      location: "Universidade Bradesco (UniBrad) · Av. Marquês de São Vicente, 77, Barra Funda — ao lado da estação Barra Funda (metrô)",
+      description: "Segundo encontro Woman & Queer Tech, com palestras sobre GitHub Copilot e inteligência artificial. Espaço com capacidade para até 120 pessoas. Duas pausas para café — uma na entrada e outra na saída — para networking. Realização: comunidades Orgulho Tech, Devs 40+ e Elas Programam, com Dan Vitoriano, Silvia Coelho e Roberson Miguel (biosbug); apoio Bradesco.",
+      status: null,
+      link: {
+        url: "https://link.orgulhotech.com.br/meetup",
+        text: "link.orgulhotech.com.br/meetup"
+      }
+    },
     {
       id: 31,
       title: "TDC Summit IA 2026 · São Paulo",

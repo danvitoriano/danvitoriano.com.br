@@ -92,8 +92,8 @@ const eventsSchema = {
           }
         },
         "url": "https://link.orgulhotech.com.br/meetup",
-        "description": "Meetup na UniBrad (Barra Funda, metrô ao lado), até 120 pessoas. Palestras sobre GitHub Copilot e IA; coffees na entrada e saída; apoio Bradesco. Inscrições abertas via Luma.",
-        "eventStatus": "https://schema.org/EventScheduled",
+        "description": "Meetup na UniBrad (Barra Funda, metrô ao lado), até 120 pessoas. Palestras sobre GitHub Copilot e IA; coffees na entrada e saída; apoio Bradesco.",
+        "eventStatus": "https://schema.org/EventCompleted",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
       }
     },
@@ -102,12 +102,10 @@ const eventsSchema = {
       "position": 5,
       "item": {
         "@type": "Event",
-        "name": "APIX 2026 · Sensedia",
-        "startDate": "2026-05-21",
-        "endDate": "2026-05-21",
-        "location": { "@type": "Place", "name": "WTC Events Center, São Paulo, SP" },
-        "url": "https://www.sensedia.com.br/apix",
-        "description": "Evento da Sensedia sobre APIs, integrações, IA e transformação digital.",
+        "name": "Orgulho Tech Conf 2026",
+        "location": { "@type": "Place", "name": "São Paulo, SP" },
+        "url": "https://www.orgulhotech.com.br/",
+        "description": "Conferência Orgulho Tech na semana da Parada do Orgulho LGBT+ de São Paulo. Data e local a definir; ingressos e patrocínio em breve.",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
       }
@@ -117,12 +115,12 @@ const eventsSchema = {
       "position": 6,
       "item": {
         "@type": "Event",
-        "name": "Orgulho Tech Conf 2026",
-        "startDate": "2026-06-03T19:00:00-03:00",
-        "endDate": "2026-06-03T23:59:00-03:00",
-        "location": { "@type": "Place", "name": "São Paulo, SP" },
-        "url": "https://www.orgulhotech.com.br/",
-        "description": "Conferência Orgulho Tech na véspera da Parada do Orgulho LGBT+ de São Paulo. Local a definir; ingressos e patrocínio em breve.",
+        "name": "APIX 2026 · Sensedia",
+        "startDate": "2026-05-21",
+        "endDate": "2026-05-21",
+        "location": { "@type": "Place", "name": "WTC Events Center, São Paulo, SP" },
+        "url": "https://www.sensedia.com.br/apix",
+        "description": "Evento da Sensedia sobre APIs, integrações, IA e transformação digital.",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
       }
