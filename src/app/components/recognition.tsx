@@ -1,19 +1,27 @@
 "use client";
 
 import {
-  TrophyIcon,
   ChatBubbleLeftRightIcon,
+  MicrophoneIcon,
   RocketLaunchIcon,
+  VideoCameraIcon,
 } from "@heroicons/react/24/outline";
 import { useEffect, useRef, useState } from "react";
 
 const recognitions = [
   {
-    name: "LinkedIn Top Voice",
+    name: "Rio Innovation Week 2025",
     description:
-      "Reconhecido como Top Voice em Desenvolvimento de Software, com mais de 31 mil seguidores e 3.000+ publicações.",
-    icon: TrophyIcon,
+      "Palestrante no maior evento de inovação, tecnologia e empreendedorismo da América Latina.",
+    icon: MicrophoneIcon,
     color: "bg-blue-600",
+  },
+  {
+    name: "Canal Locaweb no YouTube",
+    description:
+      "Apresentador do canal oficial da Locaweb, com conteúdo sobre tecnologia, negócios digitais e inovação.",
+    icon: VideoCameraIcon,
+    color: "bg-red-600",
   },
   {
     name: "Rocketseat Experts Club",
