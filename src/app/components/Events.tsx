@@ -39,7 +39,7 @@ export default function List() {
       title: "Orgulho Tech Conf 2026",
       date: "Data a definir",
       location: "São Paulo, SP · local a definir",
-      description: "Conferência da Orgulho Tech na semana da Parada do Orgulho LGBT+ de São Paulo: conteúdo, comunidade e visibilidade para profissionais LGBTQIA+ e aliadas na tecnologia. Data e local em definição; venda de ingressos e oportunidades de patrocínio em breve.",
+      description: "Conferência da Orgulho Tech em São Paulo: conteúdo, comunidade e visibilidade para profissionais LGBTQIA+ e aliadas na tecnologia. Data e local em definição; venda de ingressos e oportunidades de patrocínio em breve.",
       status: "Ingressos e patrocínio em breve",
       link: {
         url: "https://www.orgulhotech.com.br/",

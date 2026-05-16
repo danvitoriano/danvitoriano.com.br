@@ -68,9 +68,6 @@ export default function HomeHighlights() {
                   <span className="text-xs font-medium text-purple-900 bg-purple-100 px-2 py-0.5 rounded-full">
                     Data a definir
                   </span>
-                  <span className="text-xs font-medium text-rose-800 bg-rose-100 px-2 py-0.5 rounded-full">
-                    Semana da Parada LGBT+ SP
-                  </span>
                   <span className="text-xs font-medium text-gray-700 bg-gray-100 px-2 py-0.5 rounded-full">
                     São Paulo · local a definir
                   </span>
@@ -79,8 +76,7 @@ export default function HomeHighlights() {
                   Orgulho Tech Conf — edição 2026
                 </p>
                 <p className="text-sm sm:text-base text-gray-700 mt-3 leading-relaxed">
-                  A conferência da <strong className="font-medium text-gray-900">Orgulho Tech</strong> volta para celebrar tecnologia, representatividade e comunidade LGBTQIA+ e aliadas no mercado tech — na semana da{" "}
-                  <strong className="font-medium text-gray-900">Parada do Orgulho LGBT+ em São Paulo</strong>.
+                  A conferência da <strong className="font-medium text-gray-900">Orgulho Tech</strong> volta para celebrar tecnologia, representatividade e comunidade LGBTQIA+ e aliadas no mercado tech — em São Paulo.
                   Data e endereço em definição;{" "}
                   <strong className="font-medium text-gray-900">venda de ingressos</strong> e{" "}
                   <strong className="font-medium text-gray-900">patrocínio</strong> abrem em breve.

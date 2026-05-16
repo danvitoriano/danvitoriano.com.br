@@ -105,7 +105,7 @@ const eventsSchema = {
         "name": "Orgulho Tech Conf 2026",
         "location": { "@type": "Place", "name": "São Paulo, SP" },
         "url": "https://www.orgulhotech.com.br/",
-        "description": "Conferência Orgulho Tech na semana da Parada do Orgulho LGBT+ de São Paulo. Data e local a definir; ingressos e patrocínio em breve.",
+        "description": "Conferência Orgulho Tech em São Paulo. Data e local a definir; ingressos e patrocínio em breve.",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
       }
