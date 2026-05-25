@@ -47,18 +47,6 @@ export default function List() {
       }
     },
     {
-      id: 30,
-      title: "APIX 2026 · Sensedia",
-      date: "21 de maio de 2026",
-      location: "WTC Events Center — São Paulo, SP",
-      description: "11ª edição do principal evento da Sensedia sobre APIs e integrações. Conteúdo sobre APIs e integrações, agentic AI, governança e segurança de APIs, inovação aberta e estratégia de negócios — em formato presencial.",
-      status: "Evento presencial",
-      link: {
-        url: "https://www.sensedia.com.br/apix",
-        text: "sensedia.com.br/apix"
-      }
-    },
-    {
       id: 5,
       title: "Web Summit Rio 2026",
       date: "8 a 11 de junho de 2026",
@@ -122,6 +110,18 @@ export default function List() {
   ];
 
   const pastEvents: Event[] = [
+    {
+      id: 30,
+      title: "APIX 2026 · Sensedia",
+      date: "21 de maio de 2026",
+      location: "WTC Events Center — São Paulo, SP",
+      description: "11ª edição do principal evento da Sensedia sobre APIs e integrações. Conteúdo sobre APIs e integrações, agentic AI, governança e segurança de APIs, inovação aberta e estratégia de negócios — em formato presencial.",
+      status: null,
+      link: {
+        url: "https://www.sensedia.com.br/apix",
+        text: "sensedia.com.br/apix"
+      }
+    },
     {
       id: 33,
       title: "Woman & Queer Tech — 2º meetup",

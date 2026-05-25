@@ -379,11 +379,11 @@ export default function Publicidade() {
             </div>
             <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-gray-300 hover:shadow-md">
               <span className="font-medium text-gray-900">Newsletter LinkedIn</span>
-              <span className="text-2xl font-bold text-gray-900">R$ 1.500</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 2.000</span>
             </div>
             <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-gray-300 hover:shadow-md">
               <span className="font-medium text-gray-900">Pacote Newsletter + Reels</span>
-              <span className="text-2xl font-bold text-gray-900">R$ 5.000</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 5.500</span>
             </div>
             <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:border-gray-300 hover:shadow-md">
               <span className="font-medium text-gray-900">Cobertura Presencial</span>

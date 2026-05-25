@@ -40,11 +40,11 @@ const recognitions = [
 ];
 
 const stats = [
-  { label: "Seguidores no LinkedIn", value: "31.648+" },
-  { label: "Seguidores no Instagram", value: "30K" },
-  { label: "Seguidores no TikTok", value: "18.5K" },
-  { label: "Inscritos no YouTube", value: "4.2K" },
-  { label: "Seguidores no Twitter/X", value: "4K" },
+  { label: "Seguidores no LinkedIn", value: "33k" },
+  { label: "Seguidores no Instagram", value: "32.2k" },
+  { label: "Seguidores no TikTok", value: "18.9k" },
+  { label: "Seguidores no Threads", value: "8.4k" },
+  { label: "Inscritos no YouTube", value: "4.4k" },
   { label: "Publicações no LinkedIn", value: "3.000+" },
 ];
 
