@@ -86,8 +86,20 @@ export default function Publicidade() {
                   <span className="font-semibold text-gray-900">3.3M</span>
                 </div>
                 <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Impressões</span>
+                  <span className="font-semibold text-gray-900">5.3M</span>
+                </div>
+                <div className="flex justify-between text-sm">
                   <span className="text-gray-600">Views Reels</span>
                   <span className="font-semibold text-gray-900">295.3k</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Média Likes</span>
+                  <span className="font-semibold text-gray-900">17k</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Total Engajamentos</span>
+                  <span className="font-semibold text-gray-900">526.9k</span>
                 </div>
               </div>
               <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
@@ -120,12 +132,20 @@ export default function Publicidade() {
                   <span className="font-semibold text-gray-900">1.23M</span>
                 </div>
                 <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Membros alcançados</span>
+                  <span className="font-semibold text-gray-900">452.8k</span>
+                </div>
+                <div className="flex justify-between text-sm">
                   <span className="text-gray-600">Newsletter</span>
                   <span className="font-semibold text-gray-900">14.5k</span>
                 </div>
                 <div className="flex justify-between text-sm">
-                  <span className="text-gray-600">Views/ano</span>
+                  <span className="text-gray-600">Views artigos/ano</span>
                   <span className="font-semibold text-gray-900">30k</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Crescimento</span>
+                  <span className="font-semibold text-green-600">+25.7%</span>
                 </div>
               </div>
               <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
@@ -165,6 +185,10 @@ export default function Publicidade() {
                   <span className="text-gray-600">Média Views</span>
                   <span className="font-semibold text-gray-900">1.3k</span>
                 </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Média Likes</span>
+                  <span className="font-semibold text-gray-900">90</span>
+                </div>
               </div>
               <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
                 Conteúdo dinâmico
@@ -202,6 +226,10 @@ export default function Publicidade() {
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-600">Média Views</span>
                   <span className="font-semibold text-gray-900">821</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Média Likes</span>
+                  <span className="font-semibold text-gray-900">8</span>
                 </div>
               </div>
               <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
