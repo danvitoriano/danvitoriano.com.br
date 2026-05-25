@@ -329,7 +329,7 @@ export default function MediaKitPage() {
           <h2 className={styles.sectionTitle}>Marcas Parceiras</h2>
           <div className={styles.brandsList}>
             <span className={styles.brandTag}>Mercado Livre</span>
-            <span className={styles.brandTag}>L'Oreal</span>
+            <span className={styles.brandTag}>L&apos;Oreal</span>
             <span className={styles.brandTag}>Garnier</span>
             <span className={styles.brandTag}>Descomplica</span>
             <span className={styles.brandTag}>EBAC</span>
@@ -344,7 +344,7 @@ export default function MediaKitPage() {
             <span className={styles.brandTag}>Reply</span>
             <span className={styles.brandTag}>Cielo</span>
             <span className={styles.brandTag}>FIAP</span>
-            <span className={styles.brandTag}>The Developer's Conference</span>
+            <span className={styles.brandTag}>The Developer&apos;s Conference</span>
           </div>
         </section>
 
