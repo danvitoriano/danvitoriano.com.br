@@ -62,7 +62,7 @@ export default function Publicidade() {
               Dados reais das principais plataformas de conteúdo tech
             </p>
           </div>
-          <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {/* Instagram */}
             <div className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-200 transition-all hover:shadow-xl">
               <div className="flex items-center gap-3">
@@ -92,6 +92,12 @@ export default function Publicidade() {
               </div>
               <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
                 Top 1% em engajamento
+              </div>
+              <div className="mt-4 space-y-1 text-xs text-gray-600">
+                <div className="font-semibold text-gray-900">Demografia:</div>
+                <div>56.1% feminino</div>
+                <div>25-34 anos (principal)</div>
+                <div>Brasil 93.6%</div>
               </div>
             </div>
 
@@ -125,6 +131,12 @@ export default function Publicidade() {
               <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
                 Público profissional tech
               </div>
+              <div className="mt-4 space-y-1 text-xs text-gray-600">
+                <div className="font-semibold text-gray-900">Demografia:</div>
+                <div>Decisores e influenciadores</div>
+                <div>Profissionais tech sênior</div>
+                <div>Brasil e América Latina</div>
+              </div>
             </div>
 
             {/* TikTok */}
@@ -156,6 +168,50 @@ export default function Publicidade() {
               </div>
               <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
                 Conteúdo dinâmico
+              </div>
+              <div className="mt-4 space-y-1 text-xs text-gray-600">
+                <div className="font-semibold text-gray-900">Demografia:</div>
+                <div>55% masculino</div>
+                <div>18-24 anos (principal)</div>
+                <div>Brasil 81.7%</div>
+              </div>
+            </div>
+
+            {/* Threads */}
+            <div className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-200 transition-all hover:shadow-xl">
+              <div className="flex items-center gap-3">
+                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-900">
+                  <svg className="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.704-1.63 0-2.898-.681-3.567-1.919-.518-.96-.568-2.183-.142-3.44.65-1.91 2.084-3.23 3.608-3.23.814 0 1.609.403 2.237 1.134l.13-1.038h1.579l-.764 6.074c-.13 1.036.096 1.875.654 2.43.558.555 1.418.835 2.479.809 1.293-.033 2.343-.543 3.13-1.519.968-1.204 1.415-2.923 1.415-5.422 0-3.324-1.203-6.08-3.58-8.202C16.76 1.218 14.082.024 12.186 0zm1.772 11.037c-.505 0-1.025.556-1.39 1.485-.212.54-.274 1.047-.185 1.508.062.325.214.6.429.774.288.234.688.364 1.129.364.933 0 1.626-.554 2.063-1.648.218-.544.325-1.084.319-1.608-.004-.327-.079-.604-.222-.826-.19-.294-.54-.458-.989-.458l-.154.009z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-gray-900">8.4k</div>
+                  <div className="text-sm text-gray-600">Threads</div>
+                </div>
+              </div>
+              <div className="mt-4 space-y-2">
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Engajamento</span>
+                  <span className="font-semibold text-gray-900">1.8%</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Impressões</span>
+                  <span className="font-semibold text-gray-900">16.4k</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-600">Média Views</span>
+                  <span className="font-semibold text-gray-900">821</span>
+                </div>
+              </div>
+              <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
+                Público 35-44 anos
+              </div>
+              <div className="mt-4 space-y-1 text-xs text-gray-600">
+                <div className="font-semibold text-gray-900">Demografia:</div>
+                <div>66.5% masculino</div>
+                <div>35-44 anos (principal)</div>
+                <div>Brasil 96.6%</div>
               </div>
             </div>
 
@@ -189,13 +245,83 @@ export default function Publicidade() {
               <div className="mt-4 rounded-lg bg-gray-900 px-3 py-2 text-center text-xs font-medium text-white">
                 Conteúdo educacional
               </div>
+              <div className="mt-4 space-y-1 text-xs text-gray-600">
+                <div className="font-semibold text-gray-900">Demografia:</div>
+                <div>62.5% masculino</div>
+                <div>35-44 anos (principal)</div>
+                <div>Brasil 80.9%</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Pricing Table */}
+      <div className="bg-white py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Tabela de Investimentos
+            </h2>
+            <p className="mt-4 text-lg leading-8 text-gray-600">
+              Valores e formatos de conteúdo disponíveis
+            </p>
+          </div>
+          <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-4 sm:grid-cols-2">
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">Reels Instagram</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 4.000</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">Sequência Stories (3x)</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 1.000</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">Pacote Reels + Stories</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 4.500</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">TikTok Vídeo</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 2.000</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">YouTube Short</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 1.500</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">YouTube Inserção Patrocinada</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 1.500</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">Newsletter LinkedIn</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 1.500</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">Pacote Newsletter + Reels</span>
+              <span className="text-2xl font-bold text-gray-900">R$ 5.000</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">Cobertura Presencial</span>
+              <span className="text-xl font-bold text-indigo-600">Consultar</span>
+            </div>
+            <div className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md">
+              <span className="text-gray-900 font-medium">Pacote Mensal</span>
+              <span className="text-xl font-bold text-indigo-600">Consultar</span>
+            </div>
+          </div>
+          <div className="mx-auto mt-8 max-w-3xl rounded-lg border border-gray-200 bg-gray-50 p-6">
+            <p className="text-sm text-gray-700">
+              <strong>Nota:</strong> Pagamento via boleto ou PIX com nota fiscal pela FULLCIRCLE SERVIÇOS DE INFORMÁTICA LTDA.
+            </p>
+            <p className="mt-2 text-sm text-gray-700">
+              Valores com validade de 30 dias.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Niches */}
-      <div className="py-24 sm:py-32">
+      <div className="bg-gray-50 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -235,7 +361,7 @@ export default function Publicidade() {
       </div>
 
       {/* Brands */}
-      <div className="bg-gray-50 py-24 sm:py-32">
+      <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -252,7 +378,7 @@ export default function Publicidade() {
       </div>
 
       {/* CTA */}
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-gray-50 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
